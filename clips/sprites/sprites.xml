@@ -1,0 +1,1405 @@
+﻿<sprites>
+	<type name="Misc">
+		<sprite id="0" name="Épée de combat (défaut)" />
+		<sprite id="2" name="Cristal Demon" />
+		<sprite id="3" name="Épée de combat (monstres)" />
+		<sprite id="4" name="Épée de combat (percepteur)" />
+		<sprite id="5" name="Épée de combat (défaut)" />
+		<sprite id="12" name="Féca (joueur, mode créature)" />
+		<sprite id="13" name="Féca (joueur, tombe)" />
+		<sprite id="22" name="Osamodas (joueur, mode créature)" />
+		<sprite id="23" name="Osamodas (joueur, tombe)" />
+		<sprite id="32" name="Enutrof (joueur, mode créature)" />
+		<sprite id="33" name="Enutrof (joueur, tombe)" />
+		<sprite id="42" name="Sram (joueur, mode créature)" />
+		<sprite id="43" name="Sram (joueur, tombe)" />
+		<sprite id="52" name="Xelor (joueur, mode créature)" />
+		<sprite id="53" name="Xelor (joueur, mode tombe)" />
+		<sprite id="62" name="Ecaflip (joueur, mode créature)" />
+		<sprite id="63" name="Ecaflip (joueur, mode tombe)" />
+		<sprite id="72" name="Eniripsa (joueur, mode créature)" />
+		<sprite id="73" name="Eniripsa (joueur, mode tombe)" />
+		<sprite id="82" name="Iop (joueur, mode créature)" />
+		<sprite id="83" name="Iop (joueur, mode tombe)" />
+		<sprite id="92" name="Crâ (joueur, mode créature)" />
+		<sprite id="93" name="Crâ (joueur, mode tombe)" />
+		<sprite id="102" name="Sadida (joueur, mode créature)" />
+		<sprite id="103" name="Sadida (joueur, mode tombe)" />
+		<sprite id="112" name="Sacrieur (joueur, mode créature)" />
+		<sprite id="113" name="Sacrieur (joueur, mode tombe)" />
+		<sprite id="122" name="Pandawa (joueur, mode créature)" />
+		<sprite id="123" name="Pandawa (joueur, mode tombe)" />
+		<sprite id="1005" name="Champ" />
+		<sprite id="1006" name="Moustiko" />
+		<sprite id="1011" name="Tournesol sauvage" />
+		<sprite id="1015" name="Lapin" />
+		<sprite id="1017" name="Sanglier" />
+		<sprite id="1022" name="Larve Bleu" />
+		<sprite id="1023" name="Larve Verte" />
+		<sprite id="1024" name="Larve Orange" />
+		<sprite id="1045" name="Pissenlit diabolique" />
+		<sprite id="1082" name="Rokailleux tete" />
+		<sprite id="1087" name="Tofu Lancé" />
+		<sprite id="1090" name="Bouftou royal" />
+		<sprite id="1093" name="Boufton Noir" />
+		<sprite id="1110" name="Dragodinde Sauvage" />
+		<sprite id="1140" name="Boule d eau" />
+		<sprite id="1187" name="Cocon du maitre Corbac" />
+		<sprite id="1210" name="Traces de pas (mode invisibilité)" />
+		<sprite id="1213" name="etoile de mer" />
+		<sprite id="1215" name="Kralamour" />
+		<sprite id="1216" name="Tentacule Invocatrice" />
+		<sprite id="1224" name="Robot en bois boulet" />
+		<sprite id="1225" name="robot en bois bouclier" />
+		<sprite id="1237" name="ballon" />
+		<sprite id="1238" name="sadida de la foire du trool" />
+		<sprite id="1250" name="Kill bwork" />
+		<sprite id="1262" name="invoc panda" />
+		<sprite id="1263" name="Bouftou GM" />
+		<sprite id="1279" name="Mega Leopardo" />
+		<sprite id="1291" name="mega Leopardo fantome" />
+		<sprite id="1323" name="Koalak (ghost)" />
+		<sprite id="1328" name="Snowfouxy (ghost)" />
+		<sprite id="1329" name="Korbak (ghost)" />
+		<sprite id="1336" name="Champ Arach Bolet" />
+		<sprite id="1342" name="Salah Mandreuh" />
+		<sprite id="1343" name="GroKameleon Feu" />
+		<sprite id="1344" name="GroKameleon Terre" />
+		<sprite id="1345" name="GroKameleon Eau" />
+		<sprite id="1346" name="GroKameleon Air" />
+		<sprite id="1351" name="Salah Mandreuh" />
+		<sprite id="1360" name="pepsy koala" />
+		<sprite id="1371" name="Megagrotofu" />
+		<sprite id="1378" name="Tofu en cage (cassee)" />
+		<sprite id="1385" name="Gamino cavalier Tofu" />
+		<sprite id="1390" name="Kokotier" />
+		<sprite id="1435" name="PitiRatBajoie" />
+		<sprite id="1437" name="BrakmarRat" />
+		<sprite id="1438" name="Splinter" />
+		<sprite id="1441" name="Monture diforme" />
+		<sprite id="1448" name="Charme" />
+		<sprite id="1457" name="Wa Wabbit 8 views" />
+		<sprite id="1460" name="Maitresse des trools" />
+		<sprite id="1461" name="Maitresse des trolls" />
+		<sprite id="1463" name="Mama Trool" />
+		<sprite id="1464" name="Trool Barbu" />
+		<sprite id="1465" name="Dragon Pudoeuf blanc et vert" />
+		<sprite id="1466" name="Dragon Pudoeuf jaune" />
+		<sprite id="1467" name="Dragon Pudoeuf jaune et bleu" />
+		<sprite id="1468" name="Dragon Pudoeuf rouge et noir" />
+		<sprite id="1469" name="Baby Trool" />
+		<sprite id="1470" name="Krakeleur Sombre" />
+		<sprite id="1471" name="Bernard Lhermite" />
+		<sprite id="1476" name="Bob La Mousse" />
+		<sprite id="1477" name="Lutin Irlandais" />
+		<sprite id="1482" name="Piti Requin Bleu" />
+		<sprite id="1486" name="Mini Krakralamour" />
+		<sprite id="1489" name="Mini Lutin King" />
+		<sprite id="1491" name="Moule ouverte" />
+		<sprite id="1492" name="Patraque" />
+		<sprite id="1493" name="Gros Lutin Irlandais" />
+		<sprite id="1494" name="Mante des sables" />
+		<sprite id="1498" name="Croc Blanc" />
+		<sprite id="1500" name="Epouvantail" />
+		<sprite id="1507" name="Krak enneige" />
+		<sprite id="1516" name="pantalon du papa nowel" />
+		<sprite id="1524" name="Glaçon perso" />
+		<sprite id="1525" name="Trool Mage" />
+		<sprite id="1526" name="Trool Guerrier" />
+		<sprite id="1529" name="Serpentin tropical" />
+		<sprite id="1532" name="Meupette 01" />
+		<sprite id="1540" name="Rat bi Jacob" />
+		<sprite id="1542" name="Rat Boss Bonta Obese" />
+		<sprite id="1543" name="Rat Stafaraï" />
+		<sprite id="1545" name="Rat Stafaraille" />
+		<sprite id="1547" name="Invoc de bob la mousse" />
+		<sprite id="1550" name="Singe feuillu" />
+		<sprite id="1556" name="Cocoflor" />
+		<sprite id="1575" name="Bzz" />
+		<sprite id="1576" name="Brakmarien" />
+		<sprite id="1584" name="Trois Wabbits" />
+		<sprite id="1588" name="Larve Doree" />
+		<sprite id="1589" name="Harry Gator" />
+		<sprite id="1590" name="Wally Gator" />
+		<sprite id="1591" name="Harry Gator" />
+		<sprite id="1596" name="Ti Molusque (Vert)" />
+		<sprite id="1627" name="Fafah le flib" />
+		<sprite id="1634" name="oeil02" />
+		<sprite id="1640" name="Kimbo" />
+		<sprite id="5001" name="chacha tigre" />
+		<sprite id="5002" name="leopardo*" />
+		<sprite id="6001" name="Renne de noel" />
+		<sprite id="7001" name="Tabi" />
+		<sprite id="7002" name="Monture" />
+		<sprite id="7003" name="Monture skulette" />
+		<sprite id="7010" name="Chataigner" />
+		<sprite id="7011" name="Tapis cochon" />
+		<sprite id="7012" name="Cawottes" />
+		<sprite id="7013" name="tit puit" />
+		<sprite id="7014" name="Buisson pandala" />
+		<sprite id="7015" name="Fleurs Koalaks" />
+		<sprite id="7016" name="Jarre" />
+		<sprite id="7017" name="Tonneaucaisse" />
+		<sprite id="7018" name="Tas de caisse" />
+		<sprite id="7019" name="Tresor" />
+		<sprite id="7020" name="stand Tomates" />
+		<sprite id="7021" name="Truc de la plage" />
+		<sprite id="7022" name="Arbre" />
+		<sprite id="7023" name="pommier" />
+		<sprite id="7024" name="buisson" />
+		<sprite id="7025" name="Rocher" />
+		<sprite id="7026" name="rocher des plaines" />
+		<sprite id="7027" name="rocher de brakmar" />
+		<sprite id="7028" name="buches" />
+		<sprite id="7030" name="Maitre pandawashuka" />
+		<sprite id="7031" name="Maitresse pandawashuka" />
+		<sprite id="8001" name="une roublarde" />
+		<sprite id="8005" name="Broussaille" />
+		<sprite id="8006" name="seriane" />
+		<sprite id="8009" name="une seriane" />
+		<sprite id="8024" name="Jiva" />
+		<sprite id="8025" name="Brumaire" />
+		<sprite id="8036" name="Ilyzaelle" />
+		<sprite id="8520" name="Vieux summens" />
+		<sprite id="8521" name="vieux summens bis" />
+		<sprite id="9011" name="Prêtresse" />
+		<sprite id="9017" name="pnj un peu joufle" />
+		<sprite id="9072" name="la roue du bouftou" />
+		<sprite id="9074" name="des pattes" />
+		<sprite id="9080" name="Rasta Dida" />
+		<sprite id="9081" name="Abou Rigene" />
+		<sprite id="9084" name="Allister" />
+		<sprite id="9087" name="Mini Otomai" />
+		<sprite id="9088" name="Otomaya" />
+		<sprite id="9089" name="Allister" />
+		<sprite id="9092" name="disskray nhin" />
+		<sprite id="9094" name="Roi ALlister sur son trone" />
+		<sprite id="9095" name="Iop en costard" />
+		<sprite id="9096" name="Xelor en costume" />
+		<sprite id="9098" name="Wabbit 8 views" />
+		<sprite id="9099" name="Ecureuil 8 views" />
+		<sprite id="9100" name="Fallanster" />
+		<sprite id="9101" name="Sramette avec robe " />
+		<sprite id="9102" name="Sadidette avec robe" />
+		<sprite id="9103" name="La mariee" />
+		<sprite id="9105" name="Professeur Fournestrool" />
+		<sprite id="9200" name="Allister" />
+	</type>
+	<type name="Familiers Fantômes">
+		<sprite id="1" name="Cristal Ange" />
+		<sprite id="1300" name="Chacha (ghost)" />
+		<sprite id="1301" name="Chienchien (ghost)" />
+		<sprite id="1302" name="Pekipeki (ghost)" />
+		<sprite id="1303" name="Ecureuil (ghost)" />
+		<sprite id="1304" name="Marcassin (ghost)" />
+		<sprite id="1305" name="Tortue (ghost)" />
+		<sprite id="1306" name="Korbak (ghost)" />
+		<sprite id="1307" name="Bilby (ghost)" />
+		<sprite id="1308" name="Moon (ghost)" />
+		<sprite id="1309" name="Wabbit (ghost)" />
+		<sprite id="1310" name="Kwak (ghost)" />
+		<sprite id="1311" name="Pioupiou (ghost)" />
+		<sprite id="1312" name="Kouinkouin (ghost)" />
+		<sprite id="1313" name="Dragoune (ghost)" />
+		<sprite id="1314" name="Croum (ghost)" />
+		<sprite id="1315" name="Fotome (ghost)" />
+		<sprite id="1316" name="Minimino (ghost)" />
+		<sprite id="1317" name="Willy (ghost)" />
+		<sprite id="1318" name="Mini Wa (ghost)" />
+		<sprite id="1319" name="Firefoux (ghost)" />
+		<sprite id="1320" name="Koalak (ghost)" />
+		<sprite id="1321" name="Pinguoin gay (ghost)" />
+		<sprite id="1322" name="Bworky (ghost)" />
+		<sprite id="1324" name="Scara (ghost)" />
+		<sprite id="1325" name="Firefouxy (ghost)" />
+		<sprite id="1326" name="bouftoutou (ghost)" />
+		<sprite id="1327" name="AbraKadabra (ghost)" />
+		<sprite id="1330" name="Panda (ghost)" />
+		<sprite id="1331" name="Fantôme de familier Fëanor" />
+		<sprite id="1332" name="Fantôme de familier Ross" />
+	</type>
+	<type name="Non classé">
+		<sprite id="1" name="Cristal Ange" />
+		<sprite id="1001" name="Arbracknyde" />
+		<sprite id="1003" name="Bwork Guerrier" />
+		<sprite id="1008" name="Krakeleur de pierre" />
+		<sprite id="1012" name="Bwork Mage" />
+		<sprite id="1016" name="Bouftou" />
+		<sprite id="1049" name="Kraqueleur Plaine de Cania" />
+		<sprite id="1058" name="Wabbit Meuchine" />
+		<sprite id="1073" name="Mineur Sombre" />
+		<sprite id="1094" name="null" />
+		<sprite id="1096" name="Coquille Dragoeuf Blanc" />
+		<sprite id="1101" name="Champion Xelor" />
+		<sprite id="1117" name="Bouftou Halloween" />
+		<sprite id="1158" name="Abra Sombre" />
+		<sprite id="1219" name="Epouvantail" />
+		<sprite id="1243" name="Cybworg" />
+		<sprite id="1248" name="Krak Boul" />
+		<sprite id="1254" name="popo nouel" />
+		<sprite id="1255" name="Cadeau Animé" />
+		<sprite id="1258" name="OuGa statue" />
+		<sprite id="1260" name="pandi panda" />
+		<sprite id="1273" name="Bulbig" />
+		<sprite id="1282" name="Demon Uk" />
+		<sprite id="1283" name="Tanukou-san" />
+		<sprite id="1295" name="pandore" />
+		<sprite id="1296" name="pandore Fantome" />
+		<sprite id="1297" name="Peki peki" />
+		<sprite id="1311" name="Pioupiou (ghost)" />
+		<sprite id="1334" name="AbraKne Sombre" />
+		<sprite id="1337" name="ArachNatronc" />
+		<sprite id="1347" name="Minoskito" />
+		<sprite id="1348" name="Kameleon" />
+		<sprite id="1386" name="Tofu monture" />
+		<sprite id="1436" name="BontaRat" />
+		<sprite id="1439" name="PapyKoala" />
+		<sprite id="1452" name="Craqueboule des plaines" />
+		<sprite id="1478" name="PekiGarou" />
+		<sprite id="1490" name="Moule pas fraiche" />
+		<sprite id="1535" name="Brakmar Rat" />
+		<sprite id="8000" name="Roublard" />
+		<sprite id="8002" name="Momie" />
+		<sprite id="8008" name="Disciple roublard" />
+		<sprite id="8100" name="prisme brakmarien" />
+		<sprite id="8101" name="Prisme bontarien" />
+		<sprite id="8102" name="Prisme neutre" />
+		<sprite id="9005" name="chanil" />
+		<sprite id="9031" name="Paysan" />
+		<sprite id="9032" name="Paysanne" />
+		<sprite id="9041" name="Gosse" />
+		<sprite id="9048" name="Bibliothecaire" />
+		<sprite id="9075" name="gros panda" />
+		<sprite id="9078" name="Eleveur" />
+		<sprite id="9079" name="Bricoleur" />
+	</type>
+	<type name="Classes">
+		<sprite id="10" name="Feca" />
+		<sprite id="11" name="Feca fille" />
+		<sprite id="20" name="Osamodas" />
+		<sprite id="21" name="Osamodas fille" />
+		<sprite id="30" name="Enutrof" />
+		<sprite id="31" name="Enutrofette" />
+		<sprite id="40" name="Sram" />
+		<sprite id="41" name="Sramette" />
+		<sprite id="50" name="Xelor" />
+		<sprite id="51" name="Xelorette" />
+		<sprite id="60" name="Ecaflip" />
+		<sprite id="61" name="Ecaflipette" />
+		<sprite id="70" name="Eniripsa" />
+		<sprite id="71" name="Eniripsa fille" />
+		<sprite id="80" name="Iop" />
+		<sprite id="81" name="Iopette" />
+		<sprite id="90" name="Cra" />
+		<sprite id="91" name="Craette" />
+		<sprite id="100" name="Sadida" />
+		<sprite id="101" name="Sadidette" />
+		<sprite id="110" name="Sacrieur" />
+		<sprite id="111" name="Sacrieuse" />
+		<sprite id="120" name="panda" />
+		<sprite id="121" name="pandawette" />
+	</type>
+	<type name="Abraknydien">
+		<sprite id="1001" name="Arbracknyde" />
+		<sprite id="1157" name="Chene mou" />
+		<sprite id="1158" name="Abra Sombre" />
+		<sprite id="1160" name="Tronc" />
+		<sprite id="1163" name="Branche" />
+		<sprite id="1164" name="Branche 2" />
+		<sprite id="1333" name="AbraKne" />
+		<sprite id="1334" name="AbraKne Sombre" />
+		<sprite id="1337" name="ArachNatronc" />
+		<sprite id="1458" name="Abraknyde Ancestral" />
+	</type>
+	<type name="Milicien de Bonta">
+		<sprite id="1001" name="Arbracknyde" />
+		<sprite id="1191" name="Milicien Tarche" />
+		<sprite id="1197" name="Chef milice (Tom cruche)" />
+		<sprite id="1207" name="Tavernier" />
+		<sprite id="8004" name="Fantomas (monstre)" />
+		<sprite id="9004" name="Milicien assis" />
+		<sprite id="9006" name="mage a" />
+		<sprite id="9013" name="Vendeuse de base" />
+		<sprite id="9038" name="Amayiro" />
+		<sprite id="9045" name="Villageois" />
+		<sprite id="9049" name="Milicien" />
+	</type>
+	<type name="Monstres de quête">
+		<sprite id="1001" name="Arbracknyde" />
+		<sprite id="1003" name="Bwork Guerrier" />
+		<sprite id="1004" name="Bwork Archer" />
+		<sprite id="1046" name="Ecureuil" />
+		<sprite id="1070" name="GliGli ancestral" />
+		<sprite id="1076" name="Gobelin" />
+		<sprite id="1188" name="Chafer des plaines du Sud" />
+		<sprite id="1241" name="MaMa Bwork" />
+	</type>
+	<type name="Pnjs">
+		<sprite id="1002" name="Araignée arbracknyde" />
+		<sprite id="1012" name="Bwork Mage" />
+		<sprite id="1044" name="Rose demoniaque" />
+		<sprite id="1046" name="Ecureuil" />
+		<sprite id="1073" name="Mineur Sombre" />
+		<sprite id="1078" name="Vampire" />
+		<sprite id="1083" name="Coffre au Tresor malveillant" />
+		<sprite id="1089" name="Paysan" />
+		<sprite id="1100" name="Champion Sram" />
+		<sprite id="1139" name="Boule de Feu" />
+		<sprite id="1169" name="Bwak d air" />
+		<sprite id="1179" name="Corbac" />
+		<sprite id="1191" name="Milicien Tarche" />
+		<sprite id="1206" name="Chef Guerrier Brakmar" />
+		<sprite id="1207" name="Tavernier" />
+		<sprite id="1208" name="marcassin" />
+		<sprite id="1211" name="Garde Neutre" />
+		<sprite id="1218" name="Larve Doree" />
+		<sprite id="1260" name="pandi panda" />
+		<sprite id="1566" name="Bouftou" />
+		<sprite id="8008" name="Disciple roublard" />
+		<sprite id="9033" name="Bijoutiere" />
+		<sprite id="9041" name="Gosse" />
+	</type>
+	<type name="Monstres de Pandala">
+		<sprite id="1002" name="Araignée arbracknyde" />
+		<sprite id="1013" name="Serpentin" />
+		<sprite id="1095" name="Bandit Clan des cranes" />
+		<sprite id="1232" name="Arach degoutante" />
+		<sprite id="1283" name="Tanukou-san" />
+		<sprite id="1284" name="Tanuki-chan" />
+	</type>
+	<type name="Monstres Tutorial">
+		<sprite id="1002" name="Araignée arbracknyde" />
+		<sprite id="1053" name="Tiwabbit" />
+		<sprite id="1076" name="Gobelin" />
+		<sprite id="1092" name="Boufton Blanc" />
+		<sprite id="1107" name="Milimulou" />
+	</type>
+	<type name="Habitant de Brakmar">
+		<sprite id="1002" name="Araignée arbracknyde" />
+		<sprite id="1003" name="Bwork Guerrier" />
+		<sprite id="1012" name="Bwork Mage" />
+		<sprite id="1014" name="Chafer" />
+		<sprite id="1168" name="Bwak de terre" />
+		<sprite id="1197" name="Chef milice (Tom cruche)" />
+		<sprite id="1205" name="Guerrier Brakmar" />
+		<sprite id="1207" name="Tavernier" />
+		<sprite id="1243" name="Cybworg" />
+		<sprite id="8004" name="Fantomas (monstre)" />
+		<sprite id="9001" name="Chacha" />
+		<sprite id="9012" name="Serveuse" />
+		<sprite id="9013" name="Vendeuse de base" />
+		<sprite id="9015" name="Forgeron" />
+		<sprite id="9018" name="Vieux de base" />
+		<sprite id="9025" name="Vendeur Ecaflip" />
+		<sprite id="9030" name="Boulanger" />
+		<sprite id="9034" name="Cordonnier" />
+		<sprite id="9040" name="Roublard" />
+		<sprite id="9041" name="Gosse" />
+		<sprite id="9042" name="Petite fille Villageoise" />
+		<sprite id="9043" name="Petite fille Villageoise 2" />
+		<sprite id="9045" name="Villageois" />
+		<sprite id="9067" name="Forgemage" />
+		<sprite id="9069" name="Femme (Bonta)" />
+	</type>
+	<type name="Bworks">
+		<sprite id="1003" name="Bwork Guerrier" />
+		<sprite id="1004" name="Bwork Archer" />
+		<sprite id="1012" name="Bwork Mage" />
+		<sprite id="1241" name="MaMa Bwork" />
+		<sprite id="1242" name="Bworker" />
+		<sprite id="1243" name="Cybworg" />
+		<sprite id="1244" name="Bwork Elementaux" />
+	</type>
+	<type name="Habitant du village Bwork">
+		<sprite id="1003" name="Bwork Guerrier" />
+		<sprite id="1004" name="Bwork Archer" />
+		<sprite id="1012" name="Bwork Mage" />
+		<sprite id="1069" name="Mulou" />
+		<sprite id="1241" name="MaMa Bwork" />
+		<sprite id="9090" name="Goblin qui change de couleur" />
+	</type>
+	<type name="Gobelins">
+		<sprite id="1007" name="Cavalier Gob" />
+		<sprite id="1076" name="Gobelin" />
+	</type>
+	<type name="Craqueleurs">
+		<sprite id="1008" name="Krakeleur de pierre" />
+		<sprite id="1049" name="Kraqueleur Plaine de Cania" />
+		<sprite id="1152" name="Mega Krakeuleur" />
+		<sprite id="1248" name="Krak Boul" />
+		<sprite id="1358" name="Mega krak des montagnes" />
+	</type>
+	<type name="Monstres des plages">
+		<sprite id="1009" name="Crabe" />
+		<sprite id="1474" name="Etoile de mer" />
+		<sprite id="1481" name="Gros Requin" />
+		<sprite id="1483" name="Piti Requin Rouge" />
+		<sprite id="1484" name="Piti Requin Vert" />
+		<sprite id="1485" name="Piti Requin Blanc" />
+		<sprite id="1487" name="Piti Requin Bleu Bis" />
+		<sprite id="1488" name="Piti Requin Orange" />
+		<sprite id="1490" name="Moule pas fraiche" />
+		<sprite id="1546" name="mob l eponge" />
+	</type>
+	<type name="Campagne d'Amakna">
+		<sprite id="1010" name="Avatar MJ Lion" />
+		<sprite id="1014" name="Chafer" />
+		<sprite id="1046" name="Ecureuil" />
+		<sprite id="1061" name="Gelée Royale bleue" />
+		<sprite id="1063" name="Gelée Royale Menthe" />
+		<sprite id="1065" name="Gelée Royale Fraise" />
+		<sprite id="1071" name="Dark Vlad" />
+		<sprite id="1211" name="Garde Neutre" />
+		<sprite id="1222" name="Gelée citron royale " />
+		<sprite id="9000" name="Prêtre" />
+		<sprite id="9001" name="Chacha" />
+		<sprite id="9003" name="l'homme Ours" />
+		<sprite id="9005" name="chanil" />
+		<sprite id="9012" name="Serveuse" />
+		<sprite id="9013" name="Vendeuse de base" />
+		<sprite id="9014" name="Vendeuse de base 2" />
+		<sprite id="9015" name="Forgeron" />
+		<sprite id="9019" name="Garde un peu gros" />
+		<sprite id="9020" name="Vendeur Féca" />
+		<sprite id="9024" name="Vendeur Xelor" />
+		<sprite id="9029" name="Vendeur Sadida" />
+		<sprite id="9030" name="Boulanger" />
+		<sprite id="9036" name="Mineur" />
+		<sprite id="9037" name="Sculpteur" />
+		<sprite id="9041" name="Gosse" />
+		<sprite id="9042" name="Petite fille Villageoise" />
+		<sprite id="9043" name="Petite fille Villageoise 2" />
+		<sprite id="9044" name="Paysanne Jarre d'eau" />
+		<sprite id="9045" name="Villageois" />
+		<sprite id="9046" name="Villageois 2" />
+		<sprite id="9047" name="Villageois Vieux" />
+		<sprite id="9048" name="Bibliothecaire" />
+		<sprite id="9050" name="Berger Gosse" />
+		<sprite id="9082" name="Rasta Rider" />
+	</type>
+	<type name="Invocations de classe">
+		<sprite id="1012" name="Bwork Mage" />
+		<sprite id="1018" name="Chaton" />
+		<sprite id="1020" name="Prespic" />
+		<sprite id="1021" name="Poupee vaudou" />
+		<sprite id="1083" name="Coffre au Tresor malveillant" />
+		<sprite id="1097" name="Champion Feca" />
+		<sprite id="1098" name="Champion Osa" />
+		<sprite id="1099" name="Champion Enu" />
+		<sprite id="1100" name="Champion Sram" />
+		<sprite id="1101" name="Champion Xelor" />
+		<sprite id="1102" name="Champion Eca" />
+		<sprite id="1103" name="Champion Enia" />
+		<sprite id="1104" name="Champion Iop" />
+		<sprite id="1105" name="Champion Cra" />
+		<sprite id="1106" name="Champion Sadida" />
+		<sprite id="1143" name="Pelle Animée" />
+		<sprite id="1144" name="Sac animé" />
+		<sprite id="1154" name="Aiguille Xelor" />
+		<sprite id="1156" name="Craqueleur invoc" />
+		<sprite id="1165" name="Dragonnet rouge" />
+		<sprite id="1170" name="Cadran" />
+		<sprite id="1180" name="poupee surpuissante" />
+		<sprite id="1181" name="poupee sacrifie" />
+		<sprite id="1182" name="poupee gonflable" />
+		<sprite id="1183" name="Arbre Sadida" />
+		<sprite id="1184" name="poupee bloqueuse" />
+		<sprite id="1185" name="poupee fourbe" />
+		<sprite id="1189" name="Chafer Lancier" />
+		<sprite id="1229" name="Epee dansante" />
+		<sprite id="1230" name="Epee volante" />
+		<sprite id="1240" name="Dopeul sacri" />
+		<sprite id="1261" name="invoc panda" />
+		<sprite id="1268" name="kistoune air" />
+		<sprite id="1269" name="kistoune feu" />
+		<sprite id="1270" name="kistoune terre" />
+		<sprite id="1271" name="kistoune eau" />
+		<sprite id="1277" name="Kawotte" />
+		<sprite id="1456" name="Dopeul Panda" />
+		<sprite id="1557" name="Lapin Cretin (Invoc Eni)" />
+		<sprite id="1558" name="Tofu" />
+		<sprite id="1562" name="Sanglier" />
+		<sprite id="1564" name="Arakne" />
+		<sprite id="1566" name="Bouftou" />
+	</type>
+	<type name="Monstres des Plaines de Cania">
+		<sprite id="1013" name="Serpentin" />
+		<sprite id="1038" name="Cavalier Porkas" />
+		<sprite id="1039" name="Kanigrou" />
+		<sprite id="1040" name="Porkas" />
+		<sprite id="1070" name="GliGli ancestral" />
+		<sprite id="1085" name="SouWoui Mawon'ne" />
+		<sprite id="1086" name="SouWoui Verte" />
+	</type>
+	<type name="Milice de Brakmar">
+		<sprite id="1014" name="Chafer" />
+		<sprite id="1190" name="Chafer Archer" />
+		<sprite id="1205" name="Guerrier Brakmar" />
+		<sprite id="1206" name="Chef Guerrier Brakmar" />
+		<sprite id="1535" name="Brakmar Rat" />
+		<sprite id="8004" name="Fantomas (monstre)" />
+		<sprite id="9007" name="mage b" />
+		<sprite id="9023" name="Vendeur Sram" />
+		<sprite id="9039" name="Herboriste" />
+	</type>
+	<type name="Monstres de la zone des débutants">
+		<sprite id="1014" name="Chafer" />
+		<sprite id="1219" name="Epouvantail" />
+		<sprite id="1475" name="Kwab Ezotik" />
+		<sprite id="1558" name="Tofu" />
+		<sprite id="1560" name="Pissenlit" />
+		<sprite id="1561" name="Rose demoniaque" />
+		<sprite id="1562" name="Sanglier" />
+		<sprite id="1563" name="Larve " />
+		<sprite id="1564" name="Arakne" />
+		<sprite id="1565" name="Champi" />
+		<sprite id="1566" name="Bouftou" />
+		<sprite id="1567" name="Larve " />
+		<sprite id="1568" name="Larve " />
+		<sprite id="1569" name="Tournesol" />
+		<sprite id="1570" name="Boufton blanc" />
+		<sprite id="1571" name="Boufton noir" />
+		<sprite id="1572" name="Moskito" />
+		<sprite id="1573" name="Chef de guerre bouftou" />
+		<sprite id="1581" name="Milou" />
+	</type>
+	<type name="Chafers">
+		<sprite id="1014" name="Chafer" />
+		<sprite id="1047" name="Chafer invisible" />
+		<sprite id="1048" name="Captain Chafer" />
+		<sprite id="1068" name="Rib" />
+		<sprite id="1188" name="Chafer des plaines du Sud" />
+		<sprite id="1189" name="Chafer Lancier" />
+		<sprite id="1190" name="Chafer Archer" />
+	</type>
+	<type name="Tofus">
+		<sprite id="1019" name="Tofu" />
+		<sprite id="1111" name="Tofu Halloween" />
+		<sprite id="1151" name="Tofu royal" />
+		<sprite id="1372" name="GwoTofu" />
+		<sprite id="1373" name="Tofuzmo" />
+		<sprite id="1374" name="Tofumikaz" />
+		<sprite id="1375" name="Radiactofu" />
+		<sprite id="1376" name="Tofoune" />
+		<sprite id="1377" name="Tofu en cage" />
+		<sprite id="1379" name="BomberFu" />
+		<sprite id="1380" name="BatTofu" />
+		<sprite id="1443" name="Tofu transgenique" />
+		<sprite id="1462" name="Tofu Noir" />
+		<sprite id="1558" name="Tofu" />
+	</type>
+	<type name="Animaux de la forêt">
+		<sprite id="1020" name="Prespic" />
+		<sprite id="1239" name="Le ours" />
+		<sprite id="1562" name="Sanglier" />
+		<sprite id="9003" name="l'homme Ours" />
+	</type>
+	<type name="Dragoeufs">
+		<sprite id="1025" name="Oeuf dragon jaune" />
+		<sprite id="1026" name="Oeuf dragon Noir" />
+		<sprite id="1027" name="Oeuf dragon Bleu" />
+		<sprite id="1028" name="Dragoeuf Imature" />
+		<sprite id="1029" name="Oeuf jaune cassé Dragon" />
+		<sprite id="1030" name="Oeuf Noir  cassé Dragon" />
+		<sprite id="1031" name="Oeuf Bleu  cassé Dragon" />
+		<sprite id="1032" name="Dragoeuf blanc" />
+		<sprite id="1033" name="Coquille jaune Dragon" />
+		<sprite id="1034" name="Coquille Noir  Dragon" />
+		<sprite id="1035" name="Coquille Bleu  Dragon" />
+		<sprite id="1036" name="dragoeuf blanc eveillé" />
+		<sprite id="1096" name="Coquille Dragoeuf Blanc" />
+		<sprite id="1339" name="Dragoss en oeuf" />
+		<sprite id="1340" name="Dragoss le boss" />
+		<sprite id="1451" name="Gros dragon" />
+		<sprite id="1480" name="Dragoeuf Soldat" />
+		<sprite id="1501" name="Drageuse" />
+		<sprite id="1502" name="Draggi" />
+		<sprite id="1503" name="Groszilla" />
+		<sprite id="1508" name="Grasmera" />
+	</type>
+	<type name="Cochons">
+		<sprite id="1037" name="Dragon Cochon" />
+		<sprite id="1060" name="Dragon cochon Arbalette" />
+		<sprite id="1256" name="Donduss Ang Cochon" />
+		<sprite id="1257" name="Cochon de farles larve" />
+		<sprite id="1259" name="Don Dorgan Cochon" />
+	</type>
+	<type name="Kwaks">
+		<sprite id="1041" name="Phoenix Blanc" />
+		<sprite id="1042" name="Phoenic Feu" />
+		<sprite id="1043" name="Phoenix Glace" />
+		<sprite id="1149" name="Kwak de terre" />
+		<sprite id="1166" name="Bwak de feu" />
+		<sprite id="1167" name="Bwak d eau" />
+		<sprite id="1168" name="Bwak de terre" />
+		<sprite id="1169" name="Bwak d air" />
+	</type>
+	<type name="Animaux">
+		<sprite id="1044" name="Rose demoniaque" />
+	</type>
+	<type name="Plantes des champs">
+		<sprite id="1044" name="Rose demoniaque" />
+		<sprite id="1459" name="Boss des plantes" />
+		<sprite id="1560" name="Pissenlit" />
+		<sprite id="1561" name="Rose demoniaque" />
+		<sprite id="1569" name="Tournesol" />
+	</type>
+	<type name="Boss">
+		<sprite id="1046" name="Ecureuil" />
+		<sprite id="1217" name="Tentacule Kralamour" />
+	</type>
+	<type name="Wabbits">
+		<sprite id="1050" name="Wabbit" />
+		<sprite id="1051" name="Black Wabbit" />
+		<sprite id="1052" name="Wo Wabbit" />
+		<sprite id="1053" name="Tiwabbit" />
+		<sprite id="1054" name="Black Tiwabbit" />
+		<sprite id="1055" name="Tiwabbit Kiafin" />
+		<sprite id="1056" name="Vieux Wabbit" />
+		<sprite id="1057" name="Wabbit Squelettes" />
+		<sprite id="1058" name="Wabbit Meuchine" />
+		<sprite id="1059" name="Wabbit GM" />
+		<sprite id="1109" name="Wa Wabbit" />
+	</type>
+	<type name="Ile des Wabbits">
+		<sprite id="1056" name="Vieux Wabbit" />
+		<sprite id="1058" name="Wabbit Meuchine" />
+		<sprite id="9051" name="Renard" />
+		<sprite id="9052" name="Renarde" />
+		<sprite id="9053" name="Capitaine" />
+		<sprite id="9054" name="Wabbit Clé" />
+		<sprite id="9055" name="Wa Wabbit mort" />
+		<sprite id="9057" name="Vieux Renard" />
+	</type>
+	<type name="Gelées">
+		<sprite id="1061" name="Gelée Royale bleue" />
+		<sprite id="1062" name="Gelée bleue" />
+		<sprite id="1063" name="Gelée Royale Menthe" />
+		<sprite id="1064" name="Gelée Menthe" />
+		<sprite id="1065" name="Gelée Royale Fraise" />
+		<sprite id="1066" name="Gelée Fraise" />
+		<sprite id="1221" name="Gelée citron" />
+		<sprite id="1222" name="Gelée citron royale " />
+	</type>
+	<type name="Monstres de Nowel">
+		<sprite id="1062" name="Gelée bleue" />
+		<sprite id="1091" name="Chef de gueurre Bouftou" />
+		<sprite id="1472" name="Le Yeti" />
+		<sprite id="1495" name="Lutin de noel" />
+		<sprite id="1497" name="Kanigrou" />
+		<sprite id="1499" name="Lutin de noel sur monture" />
+		<sprite id="1504" name="Tifoux des neiges" />
+		<sprite id="1505" name="Larve des neiges" />
+		<sprite id="1506" name="Krak des glaces" />
+		<sprite id="1509" name="Lutin de noel obese" />
+		<sprite id="1510" name="Boule de neige" />
+		<sprite id="1511" name="Papa nouwel" />
+		<sprite id="1513" name="Bonhomme de neige" />
+		<sprite id="1514" name="Pinpin le sapin" />
+		<sprite id="1515" name="petit papa Lutin nowell" />
+		<sprite id="1517" name="corps du papa nowel" />
+		<sprite id="1518" name="Tofu Surpwise" />
+		<sprite id="1519" name="Glaçon Kitsune" />
+		<sprite id="1520" name="Glaçon Wabbit" />
+		<sprite id="1521" name="Glaçon Bwak" />
+		<sprite id="1522" name="Piti cado de nowell" />
+		<sprite id="1523" name="Mini-Nuite" />
+	</type>
+	<type name="Monstres des marécages">
+		<sprite id="1067" name="Boo" />
+	</type>
+	<type name="Mulou">
+		<sprite id="1069" name="Mulou" />
+		<sprite id="1107" name="Milimulou" />
+		<sprite id="1131" name="Trooll" />
+		<sprite id="1134" name="Meulou" />
+	</type>
+	<type name="Voyageur plaine de Cania">
+		<sprite id="1070" name="GliGli ancestral" />
+		<sprite id="1076" name="Gobelin" />
+		<sprite id="9000" name="Prêtre" />
+		<sprite id="9047" name="Villageois Vieux" />
+	</type>
+	<type name="Monstres de la nuit">
+		<sprite id="1071" name="Dark Vlad" />
+		<sprite id="1072" name="Tofu Malefique" />
+		<sprite id="1077" name="Vampire Faible" />
+		<sprite id="1078" name="Vampire" />
+		<sprite id="1079" name="Cit'wouille malveillante" />
+		<sprite id="1080" name="NoeilNoeil" />
+		<sprite id="1081" name="KwO'an" />
+		<sprite id="1084" name="SouWoui Gouyize" />
+		<sprite id="1153" name="Oni" />
+		<sprite id="1199" name="Momie Nova" />
+		<sprite id="1251" name="Ouassingue" />
+		<sprite id="1252" name="mini Ouassingue" />
+		<sprite id="1253" name="Gargouille" />
+	</type>
+	<type name="Habitant du village d'Astrub">
+		<sprite id="1073" name="Mineur Sombre" />
+		<sprite id="1197" name="Chef milice (Tom cruche)" />
+		<sprite id="1207" name="Tavernier" />
+		<sprite id="1212" name="Piou" />
+		<sprite id="1245" name="ogivol" />
+		<sprite id="1566" name="Bouftou" />
+		<sprite id="8007" name="Serianne Laura Craft" />
+		<sprite id="8008" name="Disciple roublard" />
+		<sprite id="9001" name="Chacha" />
+		<sprite id="9007" name="mage b" />
+		<sprite id="9010" name="Forin gamin" />
+		<sprite id="9018" name="Vieux de base" />
+		<sprite id="9037" name="Sculpteur" />
+		<sprite id="9040" name="Roublard" />
+		<sprite id="9043" name="Petite fille Villageoise 2" />
+		<sprite id="9045" name="Villageois" />
+		<sprite id="9048" name="Bibliothecaire" />
+		<sprite id="9050" name="Berger Gosse" />
+		<sprite id="9058" name="Forin verre" />
+		<sprite id="9064" name="Gropinson" />
+		<sprite id="9093" name="Tofu Malade" />
+	</type>
+	<type name="Bandits">
+		<sprite id="1073" name="Mineur Sombre" />
+		<sprite id="1074" name="Forgeron Sombre" />
+		<sprite id="1075" name="Boulanger Sombre" />
+		<sprite id="1095" name="Bandit Clan des cranes" />
+	</type>
+	<type name="Avis de recherche Astrub">
+		<sprite id="1076" name="Gobelin" />
+		<sprite id="1153" name="Oni" />
+		<sprite id="1211" name="Garde Neutre" />
+		<sprite id="1228" name="chef braconnier" />
+		<sprite id="1243" name="Cybworg" />
+		<sprite id="1245" name="ogivol" />
+		<sprite id="1246" name="Padegref" />
+		<sprite id="1247" name="Frakacia - Mama Roublarde" />
+		<sprite id="1248" name="Krak Boul" />
+		<sprite id="1249" name="Ecureuil foudugland" />
+		<sprite id="1264" name="Maitre pandawashuka" />
+	</type>
+	<type name="Tutorial">
+		<sprite id="1076" name="Gobelin" />
+		<sprite id="6000" name="percepteur" />
+		<sprite id="9000" name="Prêtre" />
+		<sprite id="9006" name="mage a" />
+		<sprite id="9023" name="Vendeur Sram" />
+		<sprite id="9025" name="Vendeur Ecaflip" />
+		<sprite id="9059" name="Aigle animé" />
+	</type>
+	<type name="Avis de recherche">
+		<sprite id="1076" name="Gobelin" />
+		<sprite id="1202" name="Iop Sombre" />
+		<sprite id="1203" name="Sacri Sombre" />
+		<sprite id="1204" name="Eca Sombre" />
+		<sprite id="1228" name="chef braconnier" />
+		<sprite id="1243" name="Cybworg" />
+		<sprite id="1245" name="ogivol" />
+		<sprite id="1246" name="Padegref" />
+		<sprite id="1247" name="Frakacia - Mama Roublarde" />
+		<sprite id="1248" name="Krak Boul" />
+		<sprite id="1249" name="Ecureuil foudugland" />
+		<sprite id="1264" name="Maitre pandawashuka" />
+	</type>
+	<type name="Monstres de l'Arche d'Otomaï">
+		<sprite id="1083" name="Coffre au Tresor malveillant" />
+		<sprite id="1618" name="PitiPirate" />
+		<sprite id="1619" name="Tonneau Pirate" />
+		<sprite id="1620" name="Ben Fligans" />
+		<sprite id="1621" name="Gourlo le terrible" />
+	</type>
+	<type name="Pandawas">
+		<sprite id="1083" name="Coffre au Tresor malveillant" />
+		<sprite id="1260" name="pandi panda" />
+		<sprite id="1274" name="pendule" />
+		<sprite id="1295" name="pandore" />
+		<sprite id="8010" name="Pandawa Ivre" />
+		<sprite id="8011" name="Pandawette Ivre" />
+	</type>
+	<type name="Monstres des landes">
+		<sprite id="1085" name="SouWoui Mawon'ne" />
+		<sprite id="1196" name="Ouginak" />
+		<sprite id="1198" name="Scorbute" />
+		<sprite id="1201" name="Loups" />
+	</type>
+	<type name="Minos">
+		<sprite id="1088" name="MinoTOroR" />
+		<sprite id="1338" name="Dark Demino" />
+		<sprite id="1341" name="Salah MEndreuh" />
+		<sprite id="1347" name="Minoskito" />
+		<sprite id="1348" name="Kameleon" />
+		<sprite id="1384" name="Gamino" />
+		<sprite id="1387" name="Demino" />
+		<sprite id="1388" name="Scablatte" />
+		<sprite id="1409" name="Serpent a plumes" />
+		<sprite id="1442" name="Degelee" />
+		<sprite id="1444" name="Minotot" />
+	</type>
+	<type name="Monstres du Village des Dopeuls">
+		<sprite id="1097" name="Champion Feca" />
+		<sprite id="1098" name="Champion Osa" />
+		<sprite id="1099" name="Champion Enu" />
+		<sprite id="1100" name="Champion Sram" />
+		<sprite id="1101" name="Champion Xelor" />
+		<sprite id="1102" name="Champion Eca" />
+		<sprite id="1103" name="Champion Enia" />
+		<sprite id="1104" name="Champion Iop" />
+		<sprite id="1105" name="Champion Cra" />
+		<sprite id="1106" name="Champion Sadida" />
+		<sprite id="1240" name="Dopeul sacri" />
+	</type>
+	<type name="Dopeuls Temple">
+		<sprite id="1097" name="Champion Feca" />
+		<sprite id="1098" name="Champion Osa" />
+		<sprite id="1099" name="Champion Enu" />
+		<sprite id="1100" name="Champion Sram" />
+		<sprite id="1101" name="Champion Xelor" />
+		<sprite id="1102" name="Champion Eca" />
+		<sprite id="1103" name="Champion Enia" />
+		<sprite id="1104" name="Champion Iop" />
+		<sprite id="1105" name="Champion Cra" />
+		<sprite id="1106" name="Champion Sadida" />
+		<sprite id="1240" name="Dopeul sacri" />
+	</type>
+	<type name="Dragodinde">
+		<sprite id="1108" name="Dragodinde" />
+	</type>
+	<type name="Château d'Allister">
+		<sprite id="1109" name="Wa Wabbit" />
+		<sprite id="9016" name="Forin" />
+		<sprite id="9023" name="Vendeur Sram" />
+		<sprite id="9038" name="Amayiro" />
+		<sprite id="9097" name="Garde sur monture" />
+		<sprite id="9104" name="trone d\'allister" />
+	</type>
+	<type name="Kannibouls de l'île de Moon">
+		<sprite id="1112" name="Kanniboul" />
+		<sprite id="1113" name="Kanniboul" />
+		<sprite id="1114" name="Kanniboul" />
+		<sprite id="1115" name="Kanniboul" />
+	</type>
+	<type name="Plantes de Moon">
+		<sprite id="1116" name="Grand palmier" />
+		<sprite id="1118" name="Palmier" />
+		<sprite id="1119" name="Le Fourbasse" />
+		<sprite id="1120" name="Le koko" />
+		<sprite id="1121" name="MonstroPlante 1" />
+		<sprite id="1122" name="MonstroPlante 2" />
+	</type>
+	<type name="Bouftous">
+		<sprite id="1117" name="Bouftou Halloween" />
+		<sprite id="1566" name="Bouftou" />
+		<sprite id="1570" name="Boufton blanc" />
+		<sprite id="1571" name="Boufton noir" />
+		<sprite id="1573" name="Chef de guerre bouftou" />
+		<sprite id="1574" name="Bouftou royal" />
+	</type>
+	<type name="Pirates de Moon">
+		<sprite id="1123" name="Chaffer_O_Canon" />
+		<sprite id="1124" name="Cap'tain Piwouat" />
+		<sprite id="1132" name="NakunBra" />
+		<sprite id="1133" name="Boomba" />
+	</type>
+	<type name="Monstre des égouts">
+		<sprite id="1125" name="tortue1" />
+		<sprite id="1126" name="tortue2" />
+		<sprite id="1127" name="tortue3" />
+		<sprite id="1128" name="tortue4" />
+		<sprite id="1226" name="rat degoutant" />
+		<sprite id="1227" name="rat degoutant chaman" />
+		<sprite id="1232" name="Arach degoutante" />
+		<sprite id="1436" name="BontaRat" />
+		<sprite id="1534" name="Gros Rat au boulet au pied" />
+		<sprite id="1535" name="Brakmar Rat" />
+		<sprite id="1536" name="RatCaille marron" />
+		<sprite id="1537" name="RatCaille blanc" />
+		<sprite id="1538" name="Rat Boss de Brakmar" />
+		<sprite id="1539" name="Rat Muscler" />
+		<sprite id="1541" name="SphincterCell" />
+		<sprite id="1544" name="Rat Boss Bonta Maigre" />
+	</type>
+	<type name="Tortues de Moon">
+		<sprite id="1125" name="tortue1" />
+		<sprite id="1126" name="tortue2" />
+		<sprite id="1127" name="tortue3" />
+		<sprite id="1128" name="tortue4" />
+	</type>
+	<type name="Monstres de Moon">
+		<sprite id="1129" name="moon" />
+		<sprite id="1130" name="black moon" />
+	</type>
+	<type name="Ile de moon">
+		<sprite id="1129" name="moon" />
+		<sprite id="9023" name="Vendeur Sram" />
+		<sprite id="9046" name="Villageois 2" />
+		<sprite id="9053" name="Capitaine" />
+		<sprite id="9060" name="vendeur pirate" />
+		<sprite id="9061" name="gosse ile" />
+		<sprite id="9062" name="gosse ile2" />
+		<sprite id="9063" name="Kanniboule" />
+		<sprite id="9064" name="Gropinson" />
+	</type>
+	<type name="Scarafeuille">
+		<sprite id="1135" name="Scarafeuille Bleu" />
+		<sprite id="1136" name="Scarafeuille Rouge" />
+		<sprite id="1137" name="Scarafeuille Vert" />
+		<sprite id="1138" name="Scarafeuille Blanc" />
+		<sprite id="1145" name="Flameche feu" />
+		<sprite id="1146" name="Flameche eau" />
+		<sprite id="1147" name="Flameche terre" />
+		<sprite id="1148" name="Flameche air" />
+		<sprite id="1453" name="Scarafeuille Noir" />
+		<sprite id="1454" name="Baby Scara" />
+		<sprite id="1455" name="Scarabosse" />
+	</type>
+	<type name="Monstres du village de Pandala">
+		<sprite id="1145" name="Flameche feu" />
+		<sprite id="1232" name="Arach degoutante" />
+		<sprite id="1260" name="pandi panda" />
+		<sprite id="1264" name="Maitre pandawashuka" />
+		<sprite id="1274" name="pendule" />
+		<sprite id="1280" name="Panda Gelee" />
+		<sprite id="1295" name="pandore" />
+		<sprite id="1297" name="Peki peki" />
+	</type>
+	<type name="Brigandins">
+		<sprite id="1150" name="Brigandine" />
+		<sprite id="1155" name="brigandin" />
+		<sprite id="1220" name="Robot bois" />
+		<sprite id="1223" name="Robot masse" />
+	</type>
+	<type name="Village Brigandin">
+		<sprite id="1150" name="Brigandine" />
+		<sprite id="1155" name="brigandin" />
+		<sprite id="1220" name="Robot bois" />
+		<sprite id="1228" name="chef braconnier" />
+		<sprite id="9071" name="Brigandine voyage" />
+	</type>
+	<type name="Duty free">
+		<sprite id="1155" name="brigandin" />
+		<sprite id="9012" name="Serveuse" />
+		<sprite id="9030" name="Boulanger" />
+		<sprite id="9033" name="Bijoutiere" />
+		<sprite id="9054" name="Wabbit Clé" />
+		<sprite id="9056" name="Forin cowboy" />
+		<sprite id="9067" name="Forgemage" />
+	</type>
+	<type name="Crocodailles">
+		<sprite id="1159" name="Krokdur" />
+		<sprite id="1162" name="Soldat reptile" />
+		<sprite id="8003" name="Crocoburio" />
+	</type>
+	<type name="Arakne">
+		<sprite id="1161" name="Arakne majeur" />
+		<sprite id="1564" name="Arakne" />
+	</type>
+	<type name="Habitant du village de Pandala">
+		<sprite id="1169" name="Bwak d air" />
+		<sprite id="1260" name="pandi panda" />
+		<sprite id="1264" name="Maitre pandawashuka" />
+		<sprite id="1275" name="FireFox" />
+		<sprite id="1281" name="assistant Shaman" />
+		<sprite id="9001" name="Chacha" />
+		<sprite id="9016" name="Forin" />
+		<sprite id="9045" name="Villageois" />
+		<sprite id="9048" name="Bibliothecaire" />
+		<sprite id="9049" name="Milicien" />
+		<sprite id="9051" name="Renard" />
+		<sprite id="9075" name="gros panda" />
+		<sprite id="9076" name="grandapanda" />
+		<sprite id="9077" name="feepandala" />
+	</type>
+	<type name="Blop">
+		<sprite id="1171" name="Blop liquide" />
+		<sprite id="1172" name="Blop chaud" />
+		<sprite id="1173" name="Blop vegetal" />
+		<sprite id="1174" name="Blop gazeux" />
+		<sprite id="1175" name="Biblop liquide" />
+		<sprite id="1176" name="Biblop chaud" />
+		<sprite id="1177" name="Biblop vegetal" />
+		<sprite id="1178" name="Biblop gazeux" />
+	</type>
+	<type name="Corbacs">
+		<sprite id="1179" name="Corbac" />
+		<sprite id="1186" name="Grand Maitre Corbac" />
+		<sprite id="1406" name="Renarbo" />
+		<sprite id="1407" name="Hibou buveur" />
+		<sprite id="1408" name="Gros corbac en cage" />
+	</type>
+	<type name="Gardes">
+		<sprite id="1190" name="Chafer Archer" />
+		<sprite id="1192" name="Milicien" />
+		<sprite id="1205" name="Guerrier Brakmar" />
+		<sprite id="9019" name="Garde un peu gros" />
+	</type>
+	<type name="Fantômes">
+		<sprite id="1193" name="Fantome Iop" />
+		<sprite id="1194" name="Fantome Osa" />
+		<sprite id="1195" name="Fantome Cra" />
+	</type>
+	<type name="Habitants d'Incarnam">
+		<sprite id="1197" name="Chef milice (Tom cruche)" />
+		<sprite id="1207" name="Tavernier" />
+		<sprite id="1212" name="Piou" />
+		<sprite id="9000" name="Prêtre" />
+		<sprite id="9003" name="l'homme Ours" />
+		<sprite id="9008" name="peche" />
+		<sprite id="9012" name="Serveuse" />
+		<sprite id="9013" name="Vendeuse de base" />
+		<sprite id="9019" name="Garde un peu gros" />
+		<sprite id="9031" name="Paysan" />
+		<sprite id="9035" name="Bucheron" />
+		<sprite id="9037" name="Sculpteur" />
+		<sprite id="9039" name="Herboriste" />
+		<sprite id="9041" name="Gosse" />
+		<sprite id="9044" name="Paysanne Jarre d'eau" />
+		<sprite id="9047" name="Villageois Vieux" />
+		<sprite id="9050" name="Berger Gosse" />
+		<sprite id="9059" name="Aigle animé" />
+		<sprite id="9079" name="Bricoleur" />
+		<sprite id="9083" name="Papy Pupu" />
+		<sprite id="9091" name="Likhen" />
+	</type>
+	<type name="Monstres des conquêtes de territoires">
+		<sprite id="1200" name="Prisme" />
+	</type>
+	<type name="Habitant du village d'Amakna">
+		<sprite id="1207" name="Tavernier" />
+		<sprite id="9013" name="Vendeuse de base" />
+		<sprite id="9025" name="Vendeur Ecaflip" />
+		<sprite id="9030" name="Boulanger" />
+		<sprite id="9041" name="Gosse" />
+		<sprite id="9048" name="Bibliothecaire" />
+		<sprite id="9069" name="Femme (Bonta)" />
+	</type>
+	<type name="Habitant de Sufokia">
+		<sprite id="1207" name="Tavernier" />
+		<sprite id="9008" name="peche" />
+	</type>
+	<type name="Habitant de Bonta">
+		<sprite id="1207" name="Tavernier" />
+		<sprite id="7000" name="Tabi (monstre)" />
+		<sprite id="9001" name="Chacha" />
+		<sprite id="9004" name="Milicien assis" />
+		<sprite id="9012" name="Serveuse" />
+		<sprite id="9013" name="Vendeuse de base" />
+		<sprite id="9015" name="Forgeron" />
+		<sprite id="9030" name="Boulanger" />
+		<sprite id="9041" name="Gosse" />
+		<sprite id="9042" name="Petite fille Villageoise" />
+		<sprite id="9043" name="Petite fille Villageoise 2" />
+		<sprite id="9045" name="Villageois" />
+		<sprite id="9046" name="Villageois 2" />
+		<sprite id="9047" name="Villageois Vieux" />
+		<sprite id="9050" name="Berger Gosse" />
+		<sprite id="9067" name="Forgemage" />
+		<sprite id="9069" name="Femme (Bonta)" />
+		<sprite id="9070" name="Femme (Route de Bonta)" />
+	</type>
+	<type name="Champignons">
+		<sprite id="1209" name="Maître Bolet" />
+		<sprite id="1335" name="Champ Arach" />
+		<sprite id="1565" name="Champi" />
+	</type>
+	<type name="Pious">
+		<sprite id="1212" name="Piou" />
+	</type>
+	<type name="Monstres de la Tourbière sans fond">
+		<sprite id="1214" name="Encre Kralamour" />
+		<sprite id="1624" name="Roissingue" />
+		<sprite id="1625" name="Tourbassingue" />
+		<sprite id="1626" name="Bourbassingue" />
+		<sprite id="1632" name="tentacule" />
+		<sprite id="1633" name="oeil01" />
+		<sprite id="1635" name="KralaMouth" />
+	</type>
+	<type name="Larves">
+		<sprite id="1231" name="ShinLarve" />
+		<sprite id="1563" name="Larve " />
+		<sprite id="1567" name="Larve " />
+		<sprite id="1568" name="Larve " />
+		<sprite id="1577" name="Larve doree" />
+		<sprite id="1578" name="Larve emeraude" />
+		<sprite id="1579" name="Larve Rubis" />
+		<sprite id="1580" name="Larve Saphir" />
+	</type>
+	<type name="Foire du Trool">
+		<sprite id="1233" name="Arach degoutante" />
+		<sprite id="1234" name="BouftonCUs-Quadricornus" />
+		<sprite id="1235" name="Bworkitus-Double Tetus" />
+		<sprite id="1236" name="Dragonicus - minotaurus" />
+		<sprite id="9002" name="Trool de foire" />
+		<sprite id="9009" name="voyante" />
+		<sprite id="9010" name="Forin gamin" />
+		<sprite id="9016" name="Forin" />
+		<sprite id="9041" name="Gosse" />
+		<sprite id="9045" name="Villageois" />
+		<sprite id="9056" name="Forin cowboy" />
+		<sprite id="9058" name="Forin verre" />
+		<sprite id="9067" name="Forgemage" />
+		<sprite id="9069" name="Femme (Bonta)" />
+		<sprite id="9070" name="Femme (Route de Bonta)" />
+	</type>
+	<type name="Résidant aux temples de classe">
+		<sprite id="1260" name="pandi panda" />
+		<sprite id="1264" name="Maitre pandawashuka" />
+		<sprite id="9020" name="Vendeur Féca" />
+		<sprite id="9021" name="Vendeur Osamodas" />
+		<sprite id="9022" name="Vendeur Enutrof" />
+		<sprite id="9023" name="Vendeur Sram" />
+		<sprite id="9024" name="Vendeur Xelor" />
+		<sprite id="9025" name="Vendeur Ecaflip" />
+		<sprite id="9026" name="Vendeur Eniripsa" />
+		<sprite id="9027" name="Vendeur Iop" />
+		<sprite id="9028" name="Vendeur Cra" />
+		<sprite id="9029" name="Vendeur Sadida" />
+		<sprite id="9068" name="Sacrieur" />
+	</type>
+	<type name="Plantes de Pandala">
+		<sprite id="1265" name="Bulbiflore" />
+		<sprite id="1266" name="Bulbuisson" />
+		<sprite id="1267" name="Bulbambou" />
+		<sprite id="1273" name="Bulbig" />
+		<sprite id="1285" name="bambouto" />
+		<sprite id="1286" name="bambouto sacre" />
+	</type>
+	<type name="Kitsous">
+		<sprite id="1268" name="kistoune air" />
+		<sprite id="1269" name="kistoune feu" />
+		<sprite id="1270" name="kistoune terre" />
+		<sprite id="1271" name="kistoune eau" />
+	</type>
+	<type name="Fantôme de Pandala">
+		<sprite id="1275" name="FireFox" />
+		<sprite id="1287" name="pandi fantome" />
+		<sprite id="1288" name="firefoux fantome" />
+		<sprite id="1289" name="Mega FireFoux fantome" />
+		<sprite id="1290" name="leopardo fantome" />
+		<sprite id="1292" name="tanuki fantome" />
+		<sprite id="1293" name="Tanuki Chan fantome" />
+		<sprite id="1294" name="pandule fantome" />
+		<sprite id="1296" name="pandore Fantome" />
+		<sprite id="1298" name="Bouate fantome" />
+	</type>
+	<type name="Firefoux">
+		<sprite id="1275" name="FireFox" />
+		<sprite id="1276" name="mega firefox" />
+		<sprite id="1278" name="Leopardo" />
+	</type>
+	<type name="Protecteurs des Poissons">
+		<sprite id="1349" name="Tortue Nialge" />
+	</type>
+	<type name="Monstres des cavernes">
+		<sprite id="1354" name="Bouftout des montagnes" />
+		<sprite id="1355" name="Bouftout arc en ciel" />
+		<sprite id="1356" name="Cooloss" />
+		<sprite id="1357" name="Sadidette saphir emeraude rubis jade" />
+		<sprite id="1369" name="PuppetKoala" />
+		<sprite id="1370" name="Totem" />
+		<sprite id="1450" name="Skunk" />
+	</type>
+	<type name="Montagne des Koalaks">
+		<sprite id="1356" name="Cooloss" />
+		<sprite id="1357" name="Sadidette saphir emeraude rubis jade" />
+		<sprite id="1363" name="warko marron" />
+		<sprite id="1450" name="Skunk" />
+		<sprite id="9009" name="voyante" />
+		<sprite id="9085" name="Koa Lasso" />
+		<sprite id="9086" name="Chanil Fantome" />
+	</type>
+	<type name="Koalaks">
+		<sprite id="1359" name="kokakoala" />
+		<sprite id="1361" name="redkoala" />
+		<sprite id="1362" name="warko violet" />
+		<sprite id="1363" name="warko marron" />
+		<sprite id="1364" name="doc alako" />
+		<sprite id="1365" name="kidkoala" />
+		<sprite id="1366" name="mama koala" />
+		<sprite id="1367" name="gangstako" />
+		<sprite id="1368" name="maxikoala" />
+		<sprite id="1369" name="PuppetKoala" />
+		<sprite id="1381" name="KoalaKavalier" />
+		<sprite id="1382" name="MomieKoala" />
+		<sprite id="1383" name="MiniKoala des cimetieres" />
+		<sprite id="1439" name="PapyKoala" />
+		<sprite id="1440" name="Kool Allah Rider" />
+		<sprite id="1445" name="Koalak Piwate" />
+		<sprite id="1446" name="Koalak Marsupial" />
+		<sprite id="1447" name="Koalak de la mort qui tue" />
+		<sprite id="1449" name="Pekeuala" />
+	</type>
+	<type name="Protecteurs des Minerais">
+		<sprite id="1389" name="KrakBoule des recoltes" />
+	</type>
+	<type name="Protecteurs des Arbres">
+		<sprite id="1391" name="Oliviolet" />
+		<sprite id="1392" name="Bambou" />
+		<sprite id="1393" name="Bambou sombre" />
+		<sprite id="1394" name="Bombu" />
+		<sprite id="1395" name="Kaliptus" />
+		<sprite id="1396" name="Erable" />
+		<sprite id="1397" name="If" />
+		<sprite id="1398" name="Meurisier" />
+		<sprite id="1399" name="Ebene" />
+		<sprite id="1400" name="Orme" />
+		<sprite id="1401" name="Noyer" />
+		<sprite id="1402" name="Chataigner" />
+		<sprite id="1403" name="Chene" />
+		<sprite id="1404" name="Frene" />
+		<sprite id="1405" name="Bambou sacre" />
+	</type>
+	<type name="Protecteurs des Céréales">
+		<sprite id="1410" name="Epouvantail de malt" />
+		<sprite id="1411" name="Epouvantail de ble" />
+		<sprite id="1412" name="Epouvantail de orge" />
+		<sprite id="1413" name="Epouvantail de houblon" />
+		<sprite id="1414" name="Epouvantail de avoine" />
+		<sprite id="1415" name="Epouvantail de lin" />
+		<sprite id="1416" name="Epouvantail de chanvre" />
+		<sprite id="1417" name="Epouvantail de riz" />
+		<sprite id="1418" name="Epouvantail de seigle" />
+	</type>
+	<type name="Protecteurs des Plantes">
+		<sprite id="1419" name="BulOrchidee" />
+		<sprite id="1429" name="Bullin" />
+		<sprite id="1430" name="BulEdelweiss" />
+		<sprite id="1431" name="Bulchanvre" />
+		<sprite id="1432" name="Bulmenthe" />
+		<sprite id="1433" name="Bultrefle" />
+		<sprite id="1434" name="Bulpandouille" />
+	</type>
+	<type name="Invocations des protecteurs de ressources">
+		<sprite id="1420" name="Invoc de malt" />
+		<sprite id="1421" name="Invoc de ble" />
+		<sprite id="1422" name="Invoc de orge" />
+		<sprite id="1423" name="Invoc de houblon" />
+		<sprite id="1424" name="Invoc de avoine" />
+		<sprite id="1425" name="Invoc de lin" />
+		<sprite id="1426" name="Invoc de chanvre" />
+		<sprite id="1427" name="Invoc de riz" />
+		<sprite id="1428" name="Invoc de seigle" />
+	</type>
+	<type name="Ile d'Otomaï">
+		<sprite id="1528" name="Krakeleur Exotique" />
+		<sprite id="9066" name="Otomai" />
+		<sprite id="9106" name="Ursula Antresse" />
+		<sprite id="9107" name="Alchimiste" />
+		<sprite id="9108" name="Lack" />
+		<sprite id="9109" name="Jock" />
+		<sprite id="9110" name="Denis Brouillart" />
+	</type>
+	<type name="Monstres des Plaines herbeuses">
+		<sprite id="1528" name="Krakeleur Exotique" />
+		<sprite id="1551" name="Krakeboule exotique" />
+		<sprite id="1585" name="Rasbool" />
+		<sprite id="1586" name="Coconut Piou" />
+		<sprite id="1597" name="Phacochere rider" />
+		<sprite id="1601" name="Moufafah" />
+		<sprite id="1628" name="Kido" />
+		<sprite id="1629" name="Kilibriss" />
+		<sprite id="1630" name="Invocation du rasbool" />
+	</type>
+	<type name="Monstres de l'Arbre Hakam">
+		<sprite id="1531" name="Meupette 02" />
+		<sprite id="1598" name="Abrakleur" />
+		<sprite id="1600" name="Poolay" />
+		<sprite id="1622" name="Kaskargo" />
+		<sprite id="1623" name="Kimbo" />
+		<sprite id="1631" name="Bitouf Aerien" />
+		<sprite id="1636" name="Disciple du Kimbo" />
+	</type>
+	<type name="Moskitos">
+		<sprite id="1572" name="Moskito" />
+	</type>
+	<type name="Monstres de la plage de corail">
+		<sprite id="1587" name="Krakeleur Corail" />
+		<sprite id="1592" name="Ti Molusque Kouracao (bleu)" />
+		<sprite id="1593" name="Ti Molusque Passaoh (rouge)" />
+		<sprite id="1594" name="Ti Molusque Malibout (bleuVert)" />
+		<sprite id="1595" name="Ti Molusque Morito (Jaune)" />
+		<sprite id="1602" name="Palmiflor Morito" />
+		<sprite id="1603" name="Palmiflor Malibout" />
+		<sprite id="1604" name="Palmiflor Kouracao" />
+		<sprite id="1605" name="Palmiflor PAssaoh" />
+		<sprite id="1617" name="Krakorail Magistral" />
+	</type>
+	<type name="Monstres de la Jungle Sombre">
+		<sprite id="1599" name="Abrakleur Sombre" />
+		<sprite id="1611" name="Fécorce" />
+		<sprite id="1612" name="Chiendent" />
+		<sprite id="1613" name="Nerbe" />
+		<sprite id="1614" name="Brouture" />
+		<sprite id="1615" name="Floribonde" />
+		<sprite id="1616" name="tynril" />
+		<sprite id="1638" name="Bitouf Sombre" />
+	</type>
+	<type name="Monstres de la Canopée Embrumée">
+		<sprite id="1606" name="Disciple Zoth" />
+		<sprite id="1607" name="Sergent Zoth" />
+		<sprite id="1608" name="Guerrier Zoth" />
+		<sprite id="1609" name="Gamine Zoth" />
+		<sprite id="1610" name="Maitre Zoth" />
+	</type>
+	<type name="Protecteurs des Mois">
+		<sprite id="8012" name="Summens" />
+		<sprite id="8013" name="Hecate" />
+		<sprite id="8014" name="Silouate" />
+		<sprite id="8015" name="Maimane" />
+		<sprite id="8016" name="Brumaire" />
+		<sprite id="8017" name="Djaul" />
+		<sprite id="8018" name="Ulgrude" />
+		<sprite id="8019" name="Pouchecot" />
+		<sprite id="8020" name="Rosal" />
+		<sprite id="8021" name="Raval" />
+		<sprite id="8022" name="Silvosse" />
+		<sprite id="8023" name="Jiva" />
+	</type>
+	<type name="Apprentissage metier">
+		<sprite id="9003" name="l'homme Ours" />
+		<sprite id="9008" name="peche" />
+		<sprite id="9015" name="Forgeron" />
+		<sprite id="9030" name="Boulanger" />
+		<sprite id="9031" name="Paysan" />
+		<sprite id="9032" name="Paysanne" />
+		<sprite id="9033" name="Bijoutiere" />
+		<sprite id="9034" name="Cordonnier" />
+		<sprite id="9035" name="Bucheron" />
+		<sprite id="9036" name="Mineur" />
+		<sprite id="9037" name="Sculpteur" />
+		<sprite id="9039" name="Herboriste" />
+		<sprite id="9067" name="Forgemage" />
+	</type>
+	<type name="Apprentissage metier Astrub">
+		<sprite id="9003" name="l'homme Ours" />
+		<sprite id="9008" name="peche" />
+		<sprite id="9013" name="Vendeuse de base" />
+		<sprite id="9015" name="Forgeron" />
+		<sprite id="9030" name="Boulanger" />
+		<sprite id="9032" name="Paysanne" />
+		<sprite id="9033" name="Bijoutiere" />
+		<sprite id="9034" name="Cordonnier" />
+		<sprite id="9035" name="Bucheron" />
+		<sprite id="9045" name="Villageois" />
+		<sprite id="9069" name="Femme (Bonta)" />
+	</type>
+	<type name="Habitant du village portuaire de Madrestam">
+		<sprite id="9018" name="Vieux de base" />
+		<sprite id="9023" name="Vendeur Sram" />
+		<sprite id="9045" name="Villageois" />
+		<sprite id="9053" name="Capitaine" />
+	</type>
+	<type name="Roublard">
+		<sprite id="9023" name="Vendeur Sram" />
+		<sprite id="9040" name="Roublard" />
+	</type>
+	<type name="Gardiens des villages de Kwaks">
+		<sprite id="9041" name="Gosse" />
+	</type>
+	<type name="Vendeurs hotel des ventes">
+		<sprite id="9048" name="Bibliothecaire" />
+		<sprite id="9073" name="vendeur Hotel de vente" />
+		<sprite id="9075" name="gros panda" />
+	</type>
+	<type name="Tainela">
+		<sprite id="9059" name="Aigle animé" />
+	</type>
+</sprites>

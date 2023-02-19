@@ -1,0 +1,11 @@
+.body {
+	font-family:	"Verdana";
+	font-size:		11px;
+	text-align:		justify;
+}
+
+a {
+	color:				#0000FF;
+	font-weight:		bold;
+	text-decoration:	underline;
+}
