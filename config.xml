@@ -7,7 +7,7 @@
     <conf name="En ligne" zaapconnectport="26117">
         <databank id="0">
             <dataserver url="data/" type="local" priority="3"/>
-            <dataserver url="http://127.0.0.1:8000/" priority="1"/>
+            <dataserver url="http://127.0.0.1/" priority="1"/>
         </databank>
     </conf>
 
