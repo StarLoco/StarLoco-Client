@@ -1,4 +1,4 @@
 # StarLoco - Client
 
-Client version : 1.37.10 remastered
+Client version : 1.39.8 electron remastered
 
