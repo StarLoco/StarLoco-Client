@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 30 30" version="1.0">
+  <defs id="defs4">
+    <linearGradient id="linearGradient2394" y2="21" gradientUnits="userSpaceOnUse" x2="23" y1="11" x1="13">
+      <stop id="stop2390" stop-color="#82aad5" offset="0"/>
+      <stop id="stop2392" stop-color="#366aa2" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="layer1">
+    <rect id="rect3465" ry="0" height="0" width="6" y="12.5" x="16" fill="#427bc3"/>
+    <path id="path3354" fill="#204a87" d="m12.5 2.5625c-1.031 0.0971-1.817 0.9647-1.812 2v2.625h-7.313c-1.1045 0.0001-1.9999 0.8955-2 2v11.624c0.0001 1.105 0.8955 2 2 2h7.313v2.626c0 1.104 0.895 1.999 2 2h2.312c0.454 0 0.895-0.154 1.25-0.438l11.625-9.281c0.474-0.38 0.75-0.955 0.75-1.563v-2.312c0-0.608-0.276-1.183-0.75-1.563l-11.625-9.281c-0.355-0.2835-0.796-0.4378-1.25-0.4375h-2.312c-0.063-0.0029-0.126-0.0029-0.188 0z"/>
+    <path id="path3358" fill="url(#linearGradient2394)" d="m13.312 5.1875v4c0 0.3452-0.279 0.625-0.624 0.625h-8.688v10.376h8.688c0.345 0 0.624 0.279 0.624 0.624v4h1.469l11.219-8.968v-1.688l-11.219-8.9685h-1.469z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>icon_arrow_right_blue</dc:title>
+        <dc:date>2008-05-26T11:57:46</dc:date>
+        <dc:description>arrow, arrow, clip art, clipart, icon, icon, image, media, png, public domain, svg, </dc:description>
+        <dc:source>http://openclipart.org/detail/17019/icon_arrow_right_blue-by-jean_victor_balin</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>jean_victor_balin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>arrow</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

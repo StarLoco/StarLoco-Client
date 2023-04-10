@@ -1,0 +1,169 @@
+﻿<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval';">
+	<title>Dofus Retro Console</title>
+	<style>
+	*::-webkit-scrollbar {
+	  width: 12px;
+	}
+	*::-webkit-scrollbar-track {
+	  background: #313131;
+	}
+	*::-webkit-scrollbar-thumb {
+	  background-color: #AAAAAA;
+	  border-radius: 10px;
+	  border: 3px solid #AAAAAA;
+	}
+	html, body {
+		margin:0;
+		padding:0;
+		background-color: #000000;
+	}
+	#retroConsoleContainer {
+		width: 100%;
+		height: 100%;
+		background-color: #14120D;
+		padding: 0;
+		margin: 0;
+		content-visibility: auto;
+		overflow-y: auto;
+	}
+	#retroConsole {
+		color: #FFFFFF;
+		font-family: "Courier New", "Monaco", monospace;
+		word-break: break-word;
+		white-space: break-spaces;
+		padding: 0;
+		margin: 0;
+		border-top:10px solid;
+		border-bottom:10px solid;
+		border-left:5px solid;
+		border-right:5px solid;
+		border-color: #14120D;
+	}
+	.contentTable {
+		width: 100%;
+		height: 100%;
+		border-spacing: 0;
+		border-collapse: collapse;
+	}
+	#inputTableRow {
+		height: 40px;
+		background-color: #14120D;
+	}
+	.contentTable #contentTableRow, #contentTableCell, #filtersTableCell, #inputTableRow, #inputTableCell  {
+		padding: 0;
+	}
+	#textInput {
+	    height: 30px;
+	    width: 98%;
+	    border: none;
+	    display:block;
+	    margin: 0 auto;
+	    font-family: sans-serif;
+	    border-radius: 10px;
+	}
+	#textInput:focus {
+		outline: none;
+	}
+	.hiddenSubmitButton {
+		display: none;
+	}
+	.actionButton {
+		border: none;
+		text-align: center;
+		padding: 3px 7px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	.actionButtonSvg {
+		border: none;
+		text-align: center;
+		padding: 3px 7px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	.actionButtonSvg img {
+	  width: 21px;
+	  height: 21px;
+	}
+	.actionButtonTableCell {
+		min-width:20px;
+		width: 3em;
+		padding: 5px;
+		user-select: none;
+	}
+	#movePanelLeftButtonTableCell {
+		display: none;
+	}
+	#movePanelRightButtonTableCell {
+		display: none;
+	}
+	#headerTextTableCell {
+		min-width:20px;
+		padding: 5px;
+		user-select: none;
+	}
+	#buttonsTableRow {
+		height: 30px;
+		background-color: #8E0100;
+	}
+	#headerLabel {
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 1.3em;
+		color: #EBE2DF;
+	}
+	a, a:hover, a:focus, a:active {
+	      text-decoration: none;
+	      color: inherit;
+	      border: hidden;
+	}
+	</style>
+	<link rel="stylesheet" href="css/w3.css">
+</head>
+
+<body>
+	<table class="contentTable">
+		<tr id="buttonsTableRow">
+			<td class="actionButtonTableCell">
+				<button class="actionButtonSvg" onclick="event.stopPropagation();this.blur();openFindWindow();return false;">
+				    <img src="svg/search.svg">
+				 </button>
+			</td>
+			<td class="actionButtonTableCell">
+				<button class="actionButtonSvg" onclick="event.stopPropagation();this.blur();clearConsole();return false;">
+				    <img src="svg/redtrash.svg">
+				 </button>
+			</td>
+			<td class="actionButtonTableCell" id="movePanelLeftButtonTableCell">
+				<button class="actionButtonSvg" onclick="event.stopPropagation();this.blur();panelSetRightSide(false);return false;">
+				    <img src="svg/leftarrow.svg">
+				 </button>
+			</td>
+			<td class="actionButtonTableCell" id="movePanelRightButtonTableCell">
+				<button class="actionButtonSvg" onclick="event.stopPropagation();this.blur();panelSetRightSide(true);return false;">
+				    <img src="svg/rightarrow.svg">
+				 </button>
+			</td>
+			<td id="headerTextTableCell">
+				<label id="headerLabel"></label>
+			</td>
+		</tr>
+		<tr id="contentTableRow">
+			<td colspan="5" id="contentTableCell">
+				<div id="retroConsoleContainer">
+					<div id="retroConsole" readonly></div>
+				</div>
+			</td>
+		</tr>
+		<tr id="inputTableRow">
+			<td colspan="5" id="inputTableCell">
+				<input id="textInput" type="text" name="textInput"></input>
+			</td>
+		</tr>
+	</table>
+<script src="js/D1Console.js"></script>
+</body>
+</html>

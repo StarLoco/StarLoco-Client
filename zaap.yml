@@ -1,0 +1,95 @@
+maxInstances: true
+fragments:
+  - "main"
+{% if os.platform == 'windows' %}
+  - "windows"
+{% elif os.platform == 'darwin' %}
+  - "darwin"
+{% elif os.platform == 'linux' %}
+  - "linux"
+{% endif %}
+  - "{{ game.settings.pack }}"
+
+settings:
+{% if os.platform == 'windows' %}
+  - name: "winVer"
+    default: "modern-x64"
+    label:
+      en: "Architecture"
+      fr: "Architecture"
+      de: "Architektur"
+      es: "Arquitectura"
+      it: "Architettura"
+      pt: "Arquitetura"
+    type: radio
+    options:
+      - label: "Modern 64 bits"
+        value: "modern-x64"
+      - label: "Legacy 32 bits"
+        value: "legacy-x86"
+{% endif %}
+{% if os.platform == 'darwin' %}
+  {% if os.arch == 'x64' %}
+  - name: "macArch"
+    default: "x64"
+    label:
+      en: "Architecture"
+      fr: "Architecture"
+      de: "Architektur"
+      es: "Arquitectura"
+      it: "Architettura"
+      pt: "Arquitetura"
+    type: radio
+    options:
+      - label: "32 bits"
+        value: "x86"
+      - label: "64 bits"
+        value: "x64"
+  {% else %}
+  - name: "macArch"
+    default: "x86"
+    label:
+      en: "Architecture"
+      fr: "Architecture"
+      de: "Architektur"
+      es: "Arquitectura"
+      it: "Architettura"
+      pt: "Arquitetura"
+    type: radio
+    options:
+      - label: "32 bits"
+        value: "x86"
+  {% endif %}
+{% endif %}
+
+  - name: "pack"
+    default: "remastered"
+    label:
+      en: "Version"
+      fr: "Version"
+      de: "Version"
+      es: "Version"
+      it: "Version"
+      pt: "Version"
+    type: select
+    options:
+      - label: "Classic"
+        value: "classic"
+      - label: "Remastered"
+        value: "remastered"
+
+{% if os.platform == 'windows' and game.settings.winVer == 'modern-x64' %}
+executable: "Dofus Retro.exe"
+{% endif %}
+
+{% if os.platform == 'windows' and game.settings.winVer == 'legacy-x86' %}
+executable: "resources/app/retroclient/Dofus.exe"
+{% endif %}
+
+{% if os.platform == 'darwin' and game.settings.macArch == 'x64' %}
+executable: "Dofus Retro.app/Contents/MacOS/Dofus Retro"
+{% endif %}
+
+{% if os.platform == 'darwin' and game.settings.macArch == 'x86' %}
+executable: "Dofus Retro.app/Contents/Resources/app/retroclient/Dofus.app/Contents/MacOS/Flash Player"
+{% endif %}

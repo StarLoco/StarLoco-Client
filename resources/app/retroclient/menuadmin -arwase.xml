@@ -1,0 +1,571 @@
+	<commands>
+	<item type="startup" label="StartUp">
+		<item type="sendCommand" command="infos" />
+		<item type="sendChat" command=".infos" />
+	</item>
+	<item type="static" label="Menu Arwase" />
+	<item type="static" label="Vous visez actuellement %p" />
+	<item type="loadXML" label="Recharger le Menu" />
+			<item type="sendCommand" label="Panel Administrateur" command="panel_admin" />
+								<item type="menu" label="Création d'items">
+		<item type="static" label="Création d'items" />
+		<item type="summoner" label="Création Item Summoner" />
+		<item type="sendCommand" label="Création Item JP" command="ITEM #item %p Max" />
+		</item>	
+				<item type="menu" label="Reboot">
+		<item type="static" label="Reboot" />
+			<item type="sendCommand" label="Annonce reboot" command="a [Serveur] : Le serveur va redemarrer pour des raisons techniques. Merci de votre comprehension." />
+			<item type="sendCommand" label="Reboot et Save Le Serveur" command="EXIT" />
+		</item>
+					<item type="menu" label="Commandes Rapides">
+		<item type="static" label="Commandes Rapides" />
+					<item type="sendCommand" label="Gagner le combat" command="w 1" />
+	<item type="sendCommand" label="Actualiser les monstres" command="Hacer_accion %p 30" />
+	<item type="sendCommand" label="Récupérer la vie" command="life 100 %p" />
+	<item type="sendCommand" label="Renouveler le trousseau" command="hacer_accion %p 5 10207,-1;10207,1" />
+	<item type="sendCommand" label="Full Etoiles Ressources" command="STARS_RESSOURCES 10" />
+	<item type="sendCommand" label="Full Etoiles Monstres sur la Map" command="MOB_MAP_STARS 10" />
+	<item type="sendCommand" label="Full Etoiles Monstres" command="ALL_STARS_MOBS 10" />
+							</item>
+			<item type="menu" label="Dons pour les staffs">
+		<item type="static" label="Dons pour les staffs" />
+		        	<item type="menu" label="GM">
+			<item type="static" label="GM" />
+			<item type="sendCommand" label="Joueur" command="ADMIN 0 %p" />
+			<item type="sendCommand" label="Animateur" command="ADMIN  %p" />
+			<item type="sendCommand" label="Moderateur" command="ADMIN  %p" />
+			<item type="sendCommand" label="Maitre du Jeu" command="ADMIN  %p" />
+			<item type="sendCommand" label="Co-Createur" command="ADMIN  %p" />
+			<item type="sendCommand" label="Createur" command="ADMIN  %p" />
+        </item>
+	     <item type="sendCommand" label="Doom" command="LSPELL 415 %p" />
+	     <item type="sendCommand" label="Tuerie" command="LSPELL 411 %p" />	
+	     <item type="sendCommand" label="Rekop" command="LSPELL 114 %p" />
+	     <item type="sendCommand" label="Piege surnois" command="LSPELL 65 %p" />
+	     <item type="sendCommand" label="Invisible" command="LSPELL 72 %p" />
+	     <item type="sendCommand" label="Flamme" command="LSPELL 455 %p" />
+	     <item type="sendCommand" label="Rocher" command="LSPELL 458 %p" />
+	     <item type="sendCommand" label="Vague" command="LSPELL 457 %p" />
+	     <item type="sendCommand" label="Cyclone" command="LSPELL 456 %p" />
+		</item>
+		<item type="menu" label="Apprendre un métier">
+									<item type="static" label="Apprendre un métier" />
+			<item type="menu" label="Récolte">
+										<item type="static" label="Récolte" />
+				<item type="sendCommand" label="Bucheron" command="LJOB 2 %p" />
+				<item type="sendCommand" label="Mineur" command="LJOB 24 %p" />
+				<item type="sendCommand" label="Paysan" command="LJOB 28 %p" />
+				<item type="sendCommand" label="Pecheur" command="LJOB 36 %p" />
+				<item type="sendCommand" label="Chasseur" command="LJOB 41 %p" />
+			</item>
+			<item type="menu" label="Fabrication">
+							<item type="static" label="Artisans" />
+				<item type="sendCommand" label="Boulanger" command="LJOB 25 %p" />
+				<item type="sendCommand" label="Boucher " command="LJOB 56 %p" />
+				<item type="sendCommand" label="Poissonnier" command="LJOB 58 %p" />
+			        <item type="sendCommand" label="Alchimiste" command="LJOB 26 %p" />
+				<item type="static" label="Equipements" />
+				<item type="sendCommand" label="Cordonnier" command="LJOB 15 %p" />
+				<item type="sendCommand" label="Bijoutier" command="LJOB 16 %p" />
+				<item type="sendCommand" label="Tailleur" command="LJOB 27 %p" />
+				<item type="static" label="Forgeurs" />
+				<item type="sendCommand" label="Epees" command="LJOB 11 %p" />
+				<item type="sendCommand" label="Marteaux" command="LJOB 14 %p" />
+				<item type="sendCommand" label="Dagues" command="LJOB 17 %p" />
+				<item type="sendCommand" label="Pelles" command="LJOB 20 %p" />
+				<item type="sendCommand" label="Haches" command="LJOB 31 %p" />
+				<item type="sendCommand" label="Arcs" command="LJOB 13 %p" />
+				<item type="sendCommand" label="Batons" command="LJOB 18 %p" />
+				<item type="sendCommand" label="Baguettes" command="LJOB 19 %p" />
+								<item type="static" label="Autres" />
+				<item type="sendcommand" label="Bricoleur" command="LJOB 65 %p" />
+			</item>
+			<item type="menu" label="Forgemagie">
+				<item type="static" label="Equipement" />
+				<item type="sendCommand" label="Cordonnier magicien - 7495" command="xpJob 62 %p" />
+				<item type="sendCommand" label="Bijoutier magicien - 7493" command="xpJob 63 %p" />
+				<item type="sendCommand" label="Tailleur magicien - 7494" command="xpJob 64 %p" />
+				<item type="static" label="Forgemage" />
+				<item type="sendCommand" label="Forgemage De Dagues - 1520" command="xpJob 43 %p" />
+				<item type="sendCommand" label="Forgemage De Epee - 1339" command="xpJob 44 %p" />
+				<item type="sendCommand" label="Forgemage De Epee - 1561" command="xpJob 45 %p" />
+				<item type="sendCommand" label="Forgemage De Pelles - 1560" command="xpJob 46 %p" />
+				<item type="sendCommand" label="Forgemage De Haches - 1562" command="xpJob 47 %p" />
+				<item type="static" label="Sculptemage" />
+				<item type="sendCommand" label="Sculptmage de Arcs - 1561" command="xpJob 48 %p" />
+				<item type="sendCommand" label="Sculptmage de baguettes - 1564" command="xpJob 49 %p" />
+				<item type="sendCommand" label="Sculptmage de batons - 1565" command="xpJob 50 %p" />
+			</item>
+						</item>
+						<item type="menu" label="XP un métier">
+									<item type="static" label="XP un métier" />
+			<item type="menu" label="Récolte">
+										<item type="static" label="Récolte" />
+				<item type="sendCommand" label="Bucheron" command="xpJob 2 581687 %p" />
+				<item type="sendCommand" label="Mineur" command="xpJob 24 581687 %p" />
+				<item type="sendCommand" label="Paysan" command="xpJob 28 581687 %p" />
+				<item type="sendCommand" label="Pecheur" command="xpJob 36 581687 %p" />
+				<item type="sendCommand" label="Chasseur" command="xpJob 41 581687 %p" />
+			</item>
+			<item type="menu" label="Fabrication">
+							<item type="static" label="Artisans" />
+				<item type="sendCommand" label="Boulanger" command="xpJob 25 581687 %p" />
+				<item type="sendCommand" label="Boucher " command="xpJob 56 581687 %p" />
+				<item type="sendCommand" label="Poissonnier" command="xpJob 58 581687 %p" />
+			        <item type="sendCommand" label="Alchimiste" command="xpJob 26 581687 %p" />
+				<item type="static" label="Equipements" />
+				<item type="sendCommand" label="Cordonnier" command="xpJob 15 581687 %p" />
+				<item type="sendCommand" label="Bijoutier" command="xpJob 16 581687 %p" />
+				<item type="sendCommand" label="Tailleur" command="xpJob 27 581687 %p" />
+				<item type="static" label="Forgeurs" />
+				<item type="sendCommand" label="Epees" command="xpJob 11 581687 %p" />
+				<item type="sendCommand" label="Marteaux" command="xpJob 14 581687 %p" />
+				<item type="sendCommand" label="Dagues" command="xpJob 17 581687 %p" />
+				<item type="sendCommand" label="Pelles" command="xpJob 20 581687 %p" />
+				<item type="sendCommand" label="Haches" command="xpJob 31 581687 %p" />
+				<item type="sendCommand" label="Arcs" command="xpJob 13 581687 %p" />
+				<item type="sendCommand" label="Batons" command="xpJob 18 581687 %p" />
+				<item type="sendCommand" label="Baguettes" command="xpJob 19 581687 %p" />
+								<item type="static" label="Autres" />
+				<item type="sendcommand" label="Bricoleur" command="xpJob 65 581687 %p" />
+			</item>
+			<item type="menu" label="Forgemagie">
+				<item type="static" label="Equipement" />
+				<item type="sendCommand" label="Cordonnier magicien - 7495" command="xpJob 62 581687 %p" />
+				<item type="sendCommand" label="Bijoutier magicien - 7493" command="xpJob 63 581687 %p" />
+				<item type="sendCommand" label="Tailleur magicien - 7494" command="xpJob 64 581687 %p" />
+				<item type="static" label="Forgemage" />
+				<item type="sendCommand" label="Forgemage De Dagues - 1520" command="xpJob 43 581687 %p" />
+				<item type="sendCommand" label="Forgemage De Epee - 1339" command="xpJob 44 581687 %p" />
+				<item type="sendCommand" label="Forgemage De Epee - 1561" command="xpJob 45 581687 %p" />
+				<item type="sendCommand" label="Forgemage De Pelles - 1560" command="xpJob 46 581687 %p" />
+				<item type="sendCommand" label="Forgemage De Haches - 1562" command="xpJob 47 581687 %p" />
+				<item type="static" label="Sculptemage" />
+				<item type="sendCommand" label="Sculptmage de Arcs - 1561" command="xpJob 48 581687 %p" />
+				<item type="sendCommand" label="Sculptmage de baguettes - 1564" command="xpJob 49 581687 %p" />
+				<item type="sendCommand" label="Sculptmage de batons - 1565" command="xpJob 50 581687 %p" />
+			</item>
+						</item>
+		    <item type="menu" label="TP Rapides">
+	<item type="static" label="TP Rapides" />
+	     <item type="sendCommand" label="Rejoindre" command="GON %p" />
+	     <item type="sendCommand" label="Faire venir" command="NGO %p" />
+		 		    <item type="menu" label="Zones Diverses">
+	<item type="static" label="Zones Diverses" />
+		 <item type="sendCommand" label="Event" command="TP 3336 183 %p" />
+                 <item type="sendCommand" label="Event Soy" command="TP 6947 224 %p" />
+		 <item type="sendCommand" label="Ile du Minotor" command="TP 9538 183 %p" />
+		 <item type="sendCommand" label="Ile des naufrages" command="TP 10426 169 %p" />
+		 <item type="sendCommand" label="Map Secrete" command="TP 12065 185 %p" />
+		 <item type="sendCommand" label="Map Shop" command="TP 12972 436 %p" />
+		 <item type="sendCommand" label="Zoo" command="TP 11267 300 %p" />
+		 <item type="sendCommand" label="Boufbowl" command="TP 9862 250 %p" />
+		 <item type="sendCommand" label="Event Autre" command="TP 6875 268 %p" />
+		 <item type="sendCommand" label="Atelier FM Bonta" command="TP 8731 381 %p" />
+		<item type="sendCommand" label="Atelier FM Brakmar" command="TP 8732 381 %p" />
+			<item type="sendCommand" label="Kralamour" command="TP 11095 580 %p" />
+				<item type="sendCommand" label="Phoenix" command="TP 8534 327 %p" />
+				</item>	
+				                                 <item type="menu" label="Zones Incarnam">
+												 	<item type="static" label="Zones Incarnam" />
+                    <item type="sendCommand" label="Temple" command="TP 10258 271 %p" />
+                    <item type="sendCommand" label="Place Marchande" command="TP 10301 128 %p" />
+                    <item type="sendCommand" label="Zaap Bosque" command="TP 10349 282 %p" />
+                    <item type="sendCommand" label="Chafers" command="TP 10341 382 %p" />
+                    <item type="sendCommand" label="Lago" command="TP 10332 387 %p" />
+                    <item type="sendCommand" label="DJ Incarnam" command="TP 10352 298 %p" />
+                    <item type="sendCommand" label="Milice" command="TP 10307 323 %p" />
+                    <item type="sendCommand" label="Épée géante" command="TP 10280 212 %p" />
+                    <item type="sendCommand" label="Orme de incarnam" command="TP 10287 294 %p" />
+                    <item type="sendCommand" label="Miliratas" command="TP 10356 196 %p" />
+	</item>
+                                 <item type="menu" label="Zones Astrub">
+								 	<item type="static" label="Zones Astrub" />
+                         <item type="menu" label="Ateliers">
+                    <item type="sendCommand" label="Ateliers Tailleurs" command="TP 7548 295 %p" />
+                    <item type="sendCommand" label="Ateliers Bijoutiers" command="TP 7544 337 %p" />
+                    <item type="sendCommand" label="Ateliers Cordonniers" command="TP 7616 340 %p" />
+                    <item type="sendCommand" label="Ateliers Sculpteurs" command="TP 7576 170 %p" />
+                    <item type="sendCommand" label="Ateliers Forgeur" command="TP 7614 216 %p" />
+                    <item type="sendCommand" label="Ateliers Alchimistes" command="TP 7760 316 %p" />
+                    <item type="sendCommand" label="Ateliers Boulangers" command="TP 7546 316 %p" />
+                    <item type="sendCommand" label="Poissonniers et les pêcheurs" command="TP 7596 279 %p" />
+                    <item type="sendCommand" label="Ateliers Mineurs" command="TP 7615 202 %p" />
+                    <item type="sendCommand" label="Boucheries et chasseurs" command="TP 7581 339 %p" />
+                    <item type="sendCommand" label="Ateliers Bûcherons" command="TP 8708 284 %p" />
+                    <item type="sendCommand" label="Ateliers Paysan" command="TP 7613 353 %p" />
+	                  </item>
+                         <item type="menu" label="HDV">
+                    <item type="sendCommand" label="Tailleurs" command="TP 7513 280 %p" />
+                    <item type="sendCommand" label="Bijoutiers" command="TP 7514 280 %p" />
+                    <item type="sendCommand" label="Cordonniers" command="TP 7602 309 %p" />
+                    <item type="sendCommand" label="Les forgerons" command="TP 7511 280 %p" />
+                    <item type="sendCommand" label="Sculpteurs" command="TP 7512 280 %p" />
+                    <item type="sendCommand" label="Bricoleur" command="TP 12262 280 %p" />
+                    <item type="sendCommand" label="Alchimistes" command="TP 7516 280 %p" />
+                    <item type="sendCommand" label="Boulangers" command="TP 7510 280 %p" />
+                    <item type="sendCommand" label="Paysan" command="TP 7397 321 %p" />
+                   <item type="sendCommand" label="Bûcherons" command="TP 7289 337 %p" />
+                    <item type="sendCommand" label="Poissonniers" command="TP 7501 280 %p" />
+                    <item type="sendCommand" label="Les pêcheurs" command="TP 7348 328 %p" />
+                    <item type="sendCommand" label="Chasseurs" command="TP 7350 264 %p" />
+                    <item type="sendCommand" label="Bouchers" command="TP 7515 280 %p" />
+                    <item type="sendCommand" label="Mineurs" command="TP 7443 381 %p" />
+                    <item type="sendCommand" label="Ressources" command="TP 7413 328 %p" />
+	                  </item>
+                    <item type="sendCommand" label="Zaap Astrub" command="TP 7411 311 %p" />
+                    <item type="sendCommand" label="Banque Astrub" command="TP 7549 367 %p" />
+                    <item type="sendCommand" label="Taverne Astrub" command="TP 7573 338 %p" />
+                    <item type="sendCommand" label="Temple Guildes" command="TP 2195 373 %p" />
+                    <item type="sendCommand" label="Champs d'Astrub" command="TP 7421 255 %p" />
+                    <item type="sendCommand" label="Forêt d'Astrub" command="TP 7371 367 %p" />
+                    <item type="sendCommand" label="Prairies d'Astrub" command="TP 8579 338 %p" />
+                    <item type="sendCommand" label="Mines" command="TP 8572 355 %p" />
+                    <item type="sendCommand" label="Plage" command="TP 10183 287 %p" />
+                    <item type="sendCommand" label="Tainela (Bouftous)" command="TP 1856 312 %p" />
+	</item>
+                                 <item type="menu" label="Zones Amakna">
+								 	<item type="static" label="Zones Amakna" />
+                          <item type="menu" label="Temples">
+                    <item type="sendCommand" label="Temple Sacrieur" command="TP 6949 212 %p" />
+                    <item type="sendCommand" label="Temple Enu" command="TP 1470 215 %p" />
+                    <item type="sendCommand" label="Temple Zurcarak" command="TP 1544 132 %p" />
+                    <item type="sendCommand" label="Temple Sram" command="TP 6926 137 %p" />
+                    <item type="sendCommand" label="Temple Cra" command="TP 1558 279 %p" />
+                    <item type="sendCommand" label="Temple Iop" command="TP 1549 251 %p" />
+                    <item type="sendCommand" label="Temple Xelor" command="TP 1469 284 %p" />
+                    <item type="sendCommand" label="Temple Eniripsa" command="TP 6928 122 %p" />
+                    <item type="sendCommand" label="Temple Osamodas" command="TP 1546 271 %p" />
+                    <item type="sendCommand" label="Temple Feca" command="TP 1554 355 %p" />
+                    <item type="sendCommand" label="Temple Sadida" command="TP 1466 254 %p" />
+                    <item type="sendCommand" label="Temple Pandawa" command="TP 8490 266 %p" />
+	                  </item>
+                    <item type="sendCommand" label="Zaap Bonta" command="TP 4263 171 %p" />
+                    <item type="sendCommand" label="Zaap Brakmar" command="TP 5295 488 %p" />
+                    <item type="sendCommand" label="Bosque Abraknides" command="TP 2181 210 %p" />
+                    <item type="sendCommand" label="Montagne Craqueleurs (Kwaks)" command="TP 2071 314 %p" />
+                    <item type="sendCommand" label="Scarabées" command="TP 1298 179 %p" />
+                    <item type="sendCommand" label="Gelées" command="TP 1371 340 %p" />
+                    <item type="sendCommand" label="Porcos" command="TP 1441 127 %p" />
+                    <item type="sendCommand" label="Drago Huevos" command="TP 1407 295 %p" />
+                    <item type="sendCommand" label="Territoire des bandits" command="TP 1111 262 %p" />
+                    <item type="sendCommand" label="Camp Bworks" command="TP 1659 268 %p" />
+                    <item type="sendCommand" label="Foret" command="TP 9137 278 %p" />
+                    <item type="sendCommand" label="Marécages sans fond" command="TP 9104 441 %p" />
+                    <item type="sendCommand" label="Montagne Koalaks" command="TP 8910 368 %p" />
+                   <item type="sendCommand" label="Vallée de la Mort" command="TP 9499 440 %p" />
+                    <item type="sendCommand" label="Lande Sidimote 1" command="TP 4874 187 %p" />
+                    <item type="sendCommand" label="Lande Sidimote 2" command="TP 4665 35 %p" />
+                    <item type="sendCommand" label="Cimetière primitif" command="TP 9239 444 %p" />
+	</item>
+		 </item>
+		 <item type="menu" label="TP Donjons">
+		<item type="static" label="TP Donjons"/>
+		<item type="sendCommand" label="Bouftou royal final (2083)" command="TP 2083 381 %p" />
+		<item type="sendCommand" label="Meulou final (9648)" command="TP 9648 268 %p" />
+		<item type="sendCommand" label="Grotte du Meulou (2038)" command="TP 2038 %p" />
+		<item type="sendCommand" label="Abraknyde Final (10234)" command="TP 10234 252 %p" />
+		<item type="sendCommand" label="Chêne Mou Final(10153)" command="TP 10153 %p" />
+		<item type="sendCommand" label="Bworker Final (7526)" command="TP 7526 252 %p" />
+		<item type="sendCommand" label="Crocabulia Final(10109)" command="TP 10109 111 %p" />
+		<item type="sendCommand" label="Kralamour Final (11095)" command="TP 11095 %p" />
+		<item type="sendCommand" label="Skeunk Final(8977)" command="TP 8977 227 %p" />
+		<item type="sendCommand" label="Moon Final (1836)" command="TP 1836 %p" />
+		<item type="sendCommand" label="Dark Vlad Final (325)" command="TP 325 %p" />
+		<item type="sendCommand" label="Arche Otomai Final (11065)" command="TP 11065 %p" />
+		<item type="sendCommand" label="Ougah Final (11939)" command="TP 11939 343 %p" />
+		<item type="sendCommand" label="Kimbo Final (11133)" command="TP 11133 240 %p" />
+		<item type="sendCommand" label="Wabbit Final (1773)" command="TP 1773 %p" />
+		<item type="sendCommand" label="Tofu Royal Final (9538)" command="TP 9535 326 %p" />
+		<item type="sendCommand" label="Firefoux Final (8357)" command="TP 8357 183 %p" />
+		<item type="sendCommand" label="Forgeron Final (2163)" command="TP 2163 239 %p" />	
+		<item type="sendCommand" label="Sphincter Cell Final (10149)" command="TP 10149 %p" />
+		<item type="sendCommand" label="Blop Royal Final (11886)" command="TP 11886 %p" />
+		<item type="sendCommand" label="Blop Multi Final (11892)" command="TP 11892 %p" />
+		<item type="sendCommand" label="Minotot Final (9881)" command="TP 9881 %p" />
+		<item type="sendCommand" label="Minotoror Final (9880)" command="TP 9880 %p" />
+		</item>
+			<item type="menu" label="Animation">
+			<item type="static" label="Animation" />
+		<item type="sendCommand" label="Gagnant" command="ANNOUNCE Felicitations a %p qui remporte l'event." />
+	<item type="menu" label="Events Basiques">
+	<item type="static" label="Events Basiques" /> 
+		<item type="sendCommand" label="Event Chafer" command="ANNOUNCE Event chafer !MP moi pour etre TP . Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Percepteur" command="ANNOUNCE Event percepteur en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Lettre" command="ANNOUNCE Event lettre en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Flamiche" command="ANNOUNCE Event Flamiche ! Jeton Event a gagner. MP moi pour etre TP. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event TP" command="ANNOUNCE Event TP ! Jeton Event a gagner. Je me situe dans un des .TP du serveur, vous devez me trouver, venir devant moi et dire: Coucou" />
+		<item type="sendCommand" label="Event Mot" command="ANNOUNCE Event mot en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Chiffre" command="ANNOUNCE Event chiffre en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Qui est-ce" command="ANNOUNCE Event Qui est-ce en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Course" command="ANNOUNCE Event course ! Jeton Event a gagner. Je veux du monde ! J'annoncerai la position dans quelques instants, tenez-vous prets." />
+		<item type="sendCommand" label="Event Calcul" command="ANNOUNCE Event calcul en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Morph" command="ANNOUNCE Event morph en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Rekop" command="ANNOUNCE Event Rekop en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Percepteur Soyvage" command="ANNOUNCE Event Percepteur Soyvage, MP moi pour etre TP ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Piege" command="ANNOUNCE Event Piege en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Cache cache" command="ANNOUNCE Event cache cache ! Jeton Event a gagner , J'annoncerai le premier indice dans quelques instants. Tenez vous prets ! " />
+		<item type="sendCommand" label="Event Zoo" command="ANNOUNCE Event Zoo ! MP moi pour etre TP.  Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Chasse a l'homme" command="ANNOUNCE Event chasse a l'homme ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place. MP moi pour etre TP !" />
+		<item type="sendCommand" label="Event Tuer le staff" command="ANNOUNCE Event Tuer le staff ! Jeton Event a gagner ! MP moi pour etre TP (6 places max) ! J'expliquerai tout sur place." />
+		<item type="sendCommand" label="Event Chaser-Piege" command="ANNOUNCE Event Chaser-Piege ! Jeton Event a gagner ! MP moi pour etre TP ! J'expliquerai tout sur place." />
+		<item type="sendCommand" label="Event Roulette-Russe" command="ANNOUNCE Event Roulette-Russe en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="menu" label="Suivant..">
+	<item type="static" label="Events Basiques" /> 
+		<item type="sendCommand" label="Event Pile ou Face" command="ANNOUNCE [Event PILE OU FACE] Je vais donner deux positions en canal commerce (il y a une des deux positions qui est fausse, le premier qui arrive a la bonne position et me lance echange gagne l'Event, tenez-vous pret !" />
+		<item type="sendCommand" label="Event BAC" command="ANNOUNCE Event Bac en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Zaap" command="ANNOUNCE Je me situe a un des 32 zaaps de Dofus. Le premier qui me trouve et me lance echange gagne. Jeton Event a gagner." />
+		<item type="sendCommand" label="Event Familier" command="ANNOUNCE Event Familier en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Bouclier" command="ANNOUNCE Event Bouclier en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Coiffe" command="ANNOUNCE Event Coiffe en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Meli Melo" command="ANNOUNCE Event Meli Melo en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Lettre Manquante" command="ANNOUNCE Event Lettre Manquante en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		<item type="sendCommand" label="Event Temple" command="ANNOUNCE [Event Temple] : Je me situe actuellement dans un temple de classe. Jeton Event a gagner. Le premier qui me retrouve et qui me lance echange gagne." />
+		<item type="sendCommand" label="Event Statue" command="ANNOUNCE [Event Statue de Classe] : Je me situe actuellement a une statue de classe a Astrub. Jeton Event a gagner. Le premier qui me retrouve et qui me lance echange gagne." />
+		<item type="sendCommand" label="Event Titre" command="ANNOUNCE Event titre en .event ! Jeton Event a gagner. Je veux du monde ! J'expliquerai les regles sur place." />
+		</item>
+		</item>
+	<item type="menu" label="Regles Events">
+	<item type="static" label="Regles Events" /> 
+		<item type="sendChat" label="Event Titre" command="Je mets un titre, vous devez reecrire le titre avec l'orthographe parfaite ! Le plus rapide gagnera le point." />
+		<item type="sendChat" label="Event Percepteur" command="Je pose un percepteur, vous devez reecrire son nom avec l'orthographe parfaite ! Le plus rapide gagnera le point." />
+		<item type="sendChat" label="Event Lettre" command="Je dis une ou plusieurs lettre(s), vous devez me donner un mot de 4 lettres minimum commenceant par cette ou ces lettre(s). Pas de noms propres ni de mots vulgaires." />
+		<item type="sendChat" label="Event Mot" command="Je dis un mot ou des mots, vous de me dire la premiere lettre de ce(s) mot(s)." />
+		<item type="sendChat" label="Event Qui est-ce" command="Je vais penser a une star, vous devez trouver a qui je penses tout en me posant des questions a tour de role, je pourrais repondre que par Oui ou par Non." />
+		<item type="sendChat" label="Event Chiffre" command="Je dis un chiffre ou un mot, vous devez me donner le chiffre (si un mot est donner) ou un mot (si un chiffre est donner). Exemple: Huit 7 = 8 Sept." />
+		<item type="sendChat" label="Event Flamiche" command="Je vais me mettre invisible, vous devrez me trouver en n'utilisant que 2 flamiches et 2 PM par tour. Lorsque je serais visible vous devrez passer jusqu'a que je puisse me remettre invisible." />
+		<item type="sendChat" label="Event Piege" command="Je vais poser des pieges en defi. Vous devrez utiliser 3 pm par tour (ni plus ni moins) et 0 PA. Si vous marchez sur un des pieges vous etes elimine. Il vous est interdit de retourner sur vos pas." />
+		<item type="sendChat" label="Event Rekop" command="Vous passez votre tour. Je lance le sort rekop sur chacun d'entre vous, le dernier qui se prend un coup critique gagne." />
+		<item type="sendChat" label="Event Percepteur" command="Je vais poser un percepteur, vous devez me donner le nom exact de ce percepteur." />
+		<item type="sendChat" label="Event Morph" command="Je met une morph et vous devez me donner le nom exact de la morph." />
+		<item type="sendChat" label="Event Zoo" command="Je vais dire le nom d'un boss. Le but pour vous sera d'aller sur le boss le plus vite possible. Le dernier arrive sur le boss sera elimine. Et ainsi de suite jusqu'a la finale." />
+		<item type="sendChat" label="Event Chasse l'homme" command="Le but est simple, allez vous cacher. Il est interdit de bouger de sa cachette lorsque je vous chercherai. Morph et Size sont strictements interdits." />
+		<item type="sendChat" label="Event Tuer le staff" command="Votre but est de me tuer, cependant il faudra d'abord vous battre entre vous, une fois que la moitie d'entre vous sera morts vous pourrez commencer a me taper. Celui qui me tue gagne. No CAC." />
+		<item type="sendChat" label="Event Chaser-Piege" command="Je pose un piege sur la map, le premier qui marche dessus gagne (4PM max). Mais attention, a partir du 4eme tour je me mettrais a vous poursuivre. Si vous etes a cote de moi vous serez tue." />
+		<item type="sendChat" label="Event Roulette-Russe" command="Je vais passer devant vous 1 par 1. Vous devez dire un chiffre entre 1 et 20. Je me mettrais donc a compter aleatoirement sur barre de sort et lancerais le sort sur lequel je tombe." />
+		<item type="sendChat" label="Event BAC" command="Je vais donner un theme suivit d'une lettre (exemple : Fruit en G), vous devez me donner un mot repondant aux criteres demandes." />
+		<item type="sendChat" label="Event Familier" command="Je vais mettre un familier, vous devez me donner le nom de ce familier." />
+		<item type="sendChat" label="Event Bouclier" command="Je vais mettre un bouclier, vous devez me donner le nom de ce bouclier." />
+		<item type="sendChat" label="Event Meli Melo" command="Je vais donner des mots dans le desordre (exemple : iench), vous devez reecrire le mot dans le bon ordre." />
+		<item type="sendChat" label="Event Lettre ManQ" command="Je vais donner un mot avec une lettre manquante (exemple : Cou*age), vous devez reecrire le mot avec la lettre qui manque le plus rapidement possible." />
+		<item type="sendChat" label="Event Coiffe" command="Je vais mettre une coiffe, vous devez me donner le nom de cette coiffe le plus rapidement possible." />
+		<item type="sendChat" label="Event Chafer" command="J'invoque un ou plusieurs chafer, ce chafer se precipite sur ses ennemis. Le joueur qui se fait toucher est elimine. Vous disposez de 3 PM et 0 PA." />
+		<item type="sendChat" label="Event Percepteur Soyvage" command="Je me transforme en percepteur, votre but est de survivre a ma puissance. Vous avez en votre possession UNIQUEMENT le sort Liberation, sans compter ce sort vous aurez a votre disposition 0 PA et 5 PM." />
+	</item>
+	<item type="menu" label="Events Tresors">
+	<item type="static" label="Events Tresors" /> 
+		<item type="sendCommand" label="Tresor Foire" command="ANNOUNCE [Un Tresor] a ete repere a la Foire du Trool, les gens racontent que ce tresor contient une tres grande richesse mais seul le premier a retrouver le coffre pouvait en profiter." />
+		<item type="sendCommand" label="Tresor Pichon" command="ANNOUNCE [Un Tresor] a ete repere aux Calanques d'Astrub, les gens racontent que ce tresor contient une tres grande richesse mais seul le premier a retrouver le coffre pouvait en profiter." />
+		<item type="sendCommand" label="Tresor Koalak" command="ANNOUNCE [Un Tresor] a ete repere aux Montagnes des Koalaks, les gens racontent que ce tresor contient une tres grande richesse mais seul le premier a retrouver le coffre pouvait en profiter." />
+		<item type="sendCommand" label="Tresor Astrub" command="ANNOUNCE [Un Tresor] a ete repere a Astrub, les gens racontent que ce coffre contient une tres grande richesse mais seul le premier a retrouver le coffre pouvait en profiter." />
+		<item type="sendCommand" label="Tresor Tainela" command="ANNOUNCE [Un Tresor] a ete repere a Tainela, les gens racontent que ce coffre contient une tres grande richesse mais seul le premier a retrouver le coffre pouvait en profiter." />
+		<item type="sendCommand" label="Tresor Porcas" command="ANNOUNCE [Un Tresor] a ete repere aux Territoires des Porcos, les gens racontent que ce coffre contient une tres grande richesse mais seul le premier a retrouver le coffre pouvait en profiter." />
+		<item type="sendCommand" label="Tresor Wabbit" command="ANNOUNCE [Un Tresor] a ete repere a l'Ile des Wabbits, les gens racontent que ce coffre contient une tres grande richesse mais seul le premier a retrouver le coffre pouvait en profiter." />
+		<item type="sendCommand" label="Tresor Cimetiere Bonta" command="ANNOUNCE [Un Tresor] a ete repere au Cimetiere de Bonta, les gens racontent que ce coffre contient une tres grande richesse mais seul le premier a retrouver le coffre pouvait en profiter." />
+		<item type="sendCommand" label="Tresor Cimetiere Amakna" command="ANNOUNCE [Un Tresor] a ete repere au Cimetiere d'Amakna, les gens racontent que ce coffre contient une tres grande richesse mais seul le premier a retrouver le coffre pouvait en profiter." />
+		<item type="sendCommand" label="Tresor Ile Moon" command="ANNOUNCE [Un Tresor] a ete repere a l'Ile de Moon, les gens racontent que ce coffre contient une tres grande richesse mais seul le premier a retrouver le coffre pouvait en profiter." />
+	</item>
+	<item type="menu" label="Events ADR">
+	<item type="static" label="Events ADR" /> 
+		<item type="sendCommand" label="ADR Astrub" command="ANNOUNCE [AVIS DE RECHERCHE] : Un monstre a ete appercu a Astrub par des habitants mais aucun d'eux n'a voulu mettre un pied dehors par peur d'etre tue. Je lance donc un appel aux courageux pour retrouver le monstre et me contacter !" />
+		<item type="sendCommand" label="ADR Foire" command="ANNOUNCE [AVIS DE RECHERCHE] : Un monstre a ete appercu a la Foire du Trool par des visiteurs mais aucun d'eux n'a voulu me prevenir en me disant ou il etait. Je lance donc un appel aux courageux pour retrouver le monstre et me contacter !"/>
+		<item type="sendCommand" label="ADR Pichon" command="ANNOUNCE [AVIS DE RECHERCHE] : Un monstre a ete appercu aux Calanques d'Astrub par des vacanciers mais aucun d'eux n'a voulu me prevenir en me disant ou il etait. Je lance donc un appel aux courageux pour retrouver le monstre et me contacter !" />
+		<item type="sendCommand" label="ADR Porcas" command="ANNOUNCE [AVIS DE RECHERCHE] : Un monstre a ete appercu au Territoire des Porcos par des mineurs mais aucun d'eux n'a voulu me prevenir en me disant ou il etait. Je lance donc un appel aux courageux pour retrouver le monstre et me contacter !" />
+		<item type="sendCommand" label="ADR Wabbit" command="ANNOUNCE [AVIS DE RECHERCHE] : Un monstre a ete appercu sur l'Ile des Wabbits par des agriculteurs mais aucun d'eux n'a voulu me prevenir en me disant ou il etait. Je lance donc un appel aux courageux pour retrouver le monstre et me contacter !" />
+		<item type="sendCommand" label="ADR Cimetiere Bonta" command="ANNOUNCE [AVIS DE RECHERCHE] : Un monstre a ete appercu dans le Cimetiere de Bonta par des archeologue mais aucun d'eux n'a voulu me prevenir en me disant ou il etait. Je lance donc un appel aux courageux pour retrouver le monstre et me contacter !" />
+		<item type="sendCommand" label="ADR Moon" command="ANNOUNCE [AVIS DE RECHERCHE] : Un monstre a ete appercu sur l'Ile de Moon par des chercheurs mais aucun d'eux n'a voulu me prevenir en me disant ou il etait. Je lance donc un appel aux courageux pour retrouver le monstre et me contacter !" />
+		<item type="sendCommand" label="ADR Koalak" command="ANNOUNCE [AVIS DE RECHERCHE] : Un monstre a ete appercu dans les Montagnes de Koalak par des eleveurs mais aucun d'eux n'a voulu me prevenir en me disant ou il etait. Je lance donc un appel aux courageux pour retrouver le monstre et me contacter !" />
+		<item type="sendCommand" label="ADR Port Madrestam" command="ANNOUNCE [AVIS DE RECHERCHE] : Un monstre a ete appercu au Port de Madrestam par des pecheurs mais aucun d'eux n'a voulu me prevenir en me disant ou il etait. Je lance donc un appel aux courageux pour retrouver le monstre et me contacter !" />
+		<item type="sendCommand" label="ADR Foret Astrub" command="ANNOUNCE [AVIS DE RECHERCHE] : Un monstre a ete appercu dans la foret d'Astrub par des bucherons mais aucun d'eux n'a voulu me prevenir en me disant ou il etait. Je lance donc un appel aux courageux pour retrouver le monstre et me contacter !" />
+		<item type="sendCommand" label="ADR Tainela" command="ANNOUNCE [AVIS DE RECHERCHE] : Un monstre a ete appercu a Tainela par des berger mais aucun d'eux n'a voulu me prevenir en me disant ou il etait. Je lance donc un appel aux courageux pour retrouver le monstre et me contacter !" />
+	</item>
+	<item type="menu" label="Event Flash">
+	<item type="static" label="Event Flash" /> 
+		<item type="sendCommand" label="Flash Question" command="ANNOUNCE [Event FLASH] Le but est simple, je vais poser une question, le premier qui me MP la bonne reponse gagnera ! 1 Jeton Event a gagner, preparez-vous !" />
+		<item type="sendCommand" label="Flash Calcul" command="ANNOUNCE [Event FLASH] Le but est simple, je vais poser un calcul, le premier qui me MP la bonne reponse gagnera ! 1 Jeton Event a gagner, preparez-vous !" />
+				<item type="sendCommand" label="Event Musical" command="ANNOUNCE Un Event musical va bientot commencer. Les regles sont vraiment facile, je vais donner des titres de musique en canal staff (canal rouge) et vous devrez me donner le nom du chanteur dans n'importe quel canal visible par moi." />
+		<item type="sendCommand" label="Flash Lettre" command="ANNOUNCE Event Flash [Lettre] Le but est simple, je vais vous donner 1 lettre, le premier qui me donnera un mot avec 6 lettres en MP gagnera cet event ! Jeton Event a gagner !" />
+		<item type="sendCommand" label="Flash Reecriture" command="ANNOUNCE Event Flash [Reecriture 1] Le but est simple, je vais donner une phrase, le premier qui me redonnera cette phrase sans les majuscules en MP gagnera cet event ! Jeton Event a gagner ! " />
+		<item type="sendCommand" label="Flash Reecriture 2" command="ANNOUNCE Event Flash [Reecriture 2] Le but est simple, je vais donner une phrase, le premier qui me redonnera cette phrase avec les accents en MP gagnera cet event ! Jeton Event a gagner ! " />
+		<item type="sendCommand" label="Flash Reecriture 3" command="ANNOUNCE Event Flash [Reecriture 3] Le but est simple, je vais donner une phrase, le premier qui me redonnera cette phrase sans les majuscules et avec les accents en MP gagnera cet event ! Jeton Event a gagner !" /> 
+				</item>
+						</item>
+	    <item type="menu" label="Annonces">
+	<item type="static" label="Annonces" />
+		<item type="sendCommand" label="On aide pas" command="ANNOUNCE Je rappelle que le staff ne donne pas d'items et n'est pas la pour farm pour les joueurs ni pour les XP. Merci de votre comprehension." />
+		<item type="sendCommand" label="Commerce Inter-Serveur" command="ANNOUNCE Je rappelle qu'il est strictement interdit d'exercer un commerce entre l'officiel, un serveur ou un autre jeu et Silouate. Merci de votre comprehension." />
+		<item type="sendCommand" label="Vote" command="ANNOUNCE N'oubliez pas de voter afin de faire avancer le serveur, les points recus sont utilisables en boutique ou avec le panel d'ogrines ! Merci de votre comprehension." />
+		<item type="sendCommand" label="Francais ou anglais" command="ANNOUNCE Pour des questions de comprehension je rappelle que seul le francais et l'anglais sont autorises sur Silouate. Merci de votre comprehension." />
+		<item type="sendCommand" label="Bug" command="ANNOUNCE Si vous rencontrez un bug en jeu, veuillez nous en faire part IG ou sur Discord. Merci de votre comprehension." />
+		<item type="sendCommand" label="Des questions ?" command="ANNOUNCE Vous doutez sur un donjon? Un item? Autre? Les staffs et Discord sont disponibles pour vous aider." />
+		</item>
+			<item type="menu" label="Sanctions">
+		<item type="static" label="Bans" />
+		    <item type="sendCommand" label="Ban 1h - Insultes" command="ban %p 1 Insulte"/>
+			<item type="sendCommand" label="Ban 24h - Insultes" command="ban %p 24 Insulte"/>
+			<item type="sendCommand" label="Ban 72h - Insultes" command="ban %p 72 Insulte"/>
+			<item type="sendCommand" label="Ban Def - Insultes" command="ban %p 0 Insulte"/>
+			<item type="sendCommand" label="Ban 24h - Usebug" command="ban %p 24 Usebug"/>
+			<item type="sendCommand" label="Ban 72h - Usebug" command="ban %p 72 Usebug"/>
+			<item type="sendCommand" label="Ban Def - Usebug" command="ban %p 0 Usebug"/>
+			<item type="sendCommand" label="Ban 48h - Commerce Inter-Serveur" command="ban %p 48 Commerce Inter-Serveur "/>
+			<item type="sendCommand" label="Ban Def - Commerce Inter-Serveur" command="ban %p 0 Commerce Inter-Serveur "/>
+				<item type="sendCommand" label="Ban IP" command="banear_ip %p" />
+				<item type="static" label="Mute" />
+				<item type="sendCommand" label="1 minute" command="mute %p 60 "/>
+				<item type="sendCommand" label="3 minutes" command="mute %p 180 "/>
+				<item type="sendCommand" label="5 minutes" command="mute %p 300"/>
+				<item type="sendCommand" label="10 minutes" command="mute %p 600"/>
+				<item type="sendCommand" label="30 minutes" command="mute %p 1800"/>
+				<item type="sendCommand" label="1 heure" command="mute %p 3600"/>
+				<item type="sendCommand" label="3 heures" command="mute %p 10800"/>
+			    <item type="sendCommand" label="Demute" command="unmute %p"/>
+				<item type="sendCommand" label="Mute Map" command="mutemap"/>
+			    <item type="sendCommand" label="Demute Map" command="unmutemap"/>
+						</item>
+														<item type="menu" label="Alignements">
+		<item type="static" label="Alignements" />
+			<item type="sendCommand" label="Neutre" command="ALIGN 0 %p" />
+			<item type="sendCommand" label="Ange" command="ALIGN 1 %p" />			
+			<item type="sendCommand" label="Demon" command="ALIGN 2 %p" />			
+			<item type="sendCommand" label="Seriane" command="ALIGN 3 %p" />
+			<item type="static" label="Gain de PH" />		
+            <item type="sendCommand" label="500 PH" command="HONOR 500 %p" />
+			<item type="sendCommand" label="1500 PH" command="HONOR 1500 %p" />
+			<item type="sendCommand" label="3000 PH" command="HONOR 3000 %p" />
+			<item type="sendCommand" label="5000 PH" command="HONOR 5000 %p" />
+			<item type="sendCommand" label="7500 PH" command="HONOR 7500 %p" />
+			<item type="sendCommand" label="10000 PH" command="HONOR 10000 %p" />
+			<item type="sendCommand" label="12500 PH" command="HONOR 12500 %p" />
+			<item type="sendCommand" label="15000 PH" command="HONOR 15000 %p" />
+			<item type="sendCommand" label="17500 PH" command="HONOR 17500 %p" />
+			</item>			
+			<item type="menu" label="Apparence">
+		<item type="static" label="Morph" />
+		<item type="sendCommand" label="Panel des Morphs"command="MORPH #look %p" />      
+		<item type="menu" label="Les Classes ">
+<item type="static" label="Les Classes" /> 		
+		<item type="sendCommand" command="MORPH 10 %p" label="Feca Male" />		
+		<item type="sendCommand" command="MORPH 11 %p" label="Fecate Femelle" />		
+		<item type="sendCommand" command="MORPH 20 %p" label="Osamodas Male" />		
+		<item type="sendCommand" command="MORPH 21 %p" label="Osamodas Femelle" />		
+		<item type="sendCommand" command="MORPH 30 %p" label="Enutrof Male" />		
+		<item type="sendCommand" command="MORPH 31 %p" label="Enutrofette Femelle" />		
+		<item type="sendCommand" command="MORPH 40 %p" label="Sram Male" />		
+		<item type="sendCommand" command="MORPH 41 %p" label="Sramette Femelle" />		
+		<item type="sendCommand" command="MORPH 50 %p" label="Xelor Male" />		
+		<item type="sendCommand" command="MORPH 51 %p" label="Xelorette Femelle" />		
+		<item type="sendCommand" command="MORPH 60 %p" label="Ecaflip Male" />		
+		<item type="sendCommand" command="MORPH 61 %p" label="Ecaflipette Femelle" />		
+		<item type="sendCommand" command="MORPH 70 %p" label="Eniripsa Male" />		
+		<item type="sendCommand" command="MORPH 71 %p" label="Eniripsa Femelle" />		
+		<item type="sendCommand" command="MORPH 80 %p" label="Iop Male" />		
+		<item type="sendCommand" command="MORPH 81 %p" label="Iopette Femelle" />		
+		<item type="sendCommand" command="MORPH 90 %p" label="Cra Male" />		
+		<item type="sendCommand" command="MORPH 91 %p" label="Craette Femelle" />		
+		<item type="sendCommand" command="MORPH 100 %p" label="Sadida Male" />		
+		<item type="sendCommand" command="MORPH 101 %p" label="Sadidette Femelle" />		
+		<item type="sendCommand" command="MORPH 110 %p" label="Sacrieur Male" />		
+		<item type="sendCommand" command="MORPH 111 %p" label="Sacrieuse Femelle" />		
+		<item type="sendCommand" command="MORPH 120 %p" label="Panda Male" />		
+		<item type="sendCommand" command="MORPH 121 %p" label="Pandawette Femelle" />
+			</item>
+		<item type="menu" label="Autres Morph">
+<item type="static" label="Autres Morph" />
+		<item type="sendCommand" command="MORPH 1001 %p" label="Abraknyde" />
+		<item type="sendCommand" command="MORPH 1076 %p" label="Gobelin" />
+		<item type="sendCommand" command="MORPH 8004 %p" label="Fantome" />
+		<item type="sendCommand" command="MORPH 8001 %p" label="Roublard" />
+		<item type="sendCommand" command="MORPH 8003 %p" label="Crocodaille" />
+		<item type="sendCommand" command="MORPH 8006 %p" label="Seriane" />
+		<item type="sendCommand" command="MORPH 8009 %p" label="Paysane" />
+		<item type="sendCommand" command="MORPH 8032 %p" label="Tourmenteur 1" />
+		<item type="sendCommand" command="MORPH 8033 %p" label="Tourmenteur 2" />
+		<item type="sendCommand" command="MORPH 8034 %p" label="Tourmenteur 3" />
+		<item type="sendCommand" command="MORPH 8035 %p" label="Tourmenteur 4" />
+		<item type="sendCommand" command="MORPH 8037 %p" label="Grenouille" />
+		<item type="sendCommand" command="MORPH 9098 %p" label="Wabbit" />
+		<item type="sendCommand" command="MORPH 9099 %p" label="Ecureuil" />
+			</item>
+	<item type="static" label="Invisible/Demorph" />
+		<item type="sendCommand" command="SIZE 0 %p" label="Invisible" />
+		<item type="sendCommand" command="DEMORPH %p" label="Demorph" />
+		<item type="static" label="Les Sizes" />
+		<item type="sendCommand" label="Size 40" command="SIZE 40 %p" />
+		<item type="sendCommand" label="Size 50" command="SIZE 50 %p" />
+		<item type="sendCommand" label="Size 60" command="SIZE 60 %p" />
+		<item type="sendCommand" label="Size 70" command="SIZE 70 %p" />
+		<item type="sendCommand" label="Size 80" command="SIZE 80 %p" />
+		<item type="sendCommand" label="Size 90" command="SIZE 90 %p" />
+		<item type="sendCommand" label="Size 100 (De base)" command="SIZE 100 %p" />
+		<item type="sendCommand" label="Size 110" command="SIZE 110 %p" />
+		<item type="sendCommand" label="Size 120" command="SIZE 120 %p" />
+	<item type="static" label=" Liste des Titres " />
+	<item type="menu" label="Titres Staff">
+    <item type="static" label="Titres Staff " />
+	<item type="sendCommand" label="Fondateur Suprême" command="title 9 %p" />
+        <item type="sendCommand" label="Administrateur" command="title 11 %p" />
+        <item type="sendCommand" label="Développeur" command="title 12 %p" />
+		<item type="sendCommand" label="Maitre du jeu" command="title 77 %p" />
+		<item type="sendCommand" label="Moderateur" command="title 76 %p" />
+		<item type="sendCommand" label="Moderatrice" command="title %p" />
+		<item type="sendCommand" label="Animateur" command="title 75 %p" />
+		<item type="sendCommand" label="Animatrice" command="title %p" />
+    </item>
+	<item type="menu" label="Titres A a E">
+    <item type="static" label="Titres A a E" />	
+		<item type="sendCommand" label="Agresseur fou" command="title %p" />
+		<item type="sendCommand" label="Agent secret" command="title %p" />
+		<item type="sendCommand" label="Anonyme" command="title %p" />
+		<item type="sendCommand" label="Beaugosse" command="title %p" />
+		<item type="sendCommand" label="Boss" command="title %p" />
+		<item type="sendCommand" label="Bonbon surprise" command="title %p" />
+		<item type="sendCommand" label="Brasier sanglant" command="title %p" />
+		<item type="sendCommand" label="Creme de la creme" command="title %p" />
+		<item type="sendCommand" label="Dark Net" command="title %p" />
+		<item type="sendCommand" label="Deesse" command="title %p" />
+     </item>
+
+	<item type="menu" label="Titres F a K">
+    <item type="static" label="Titres F a K" />
+		<item type="sendCommand" label="Fabolous" command="title %p" />
+		<item type="sendCommand" label="GOD" command="title %p" />
+		<item type="sendCommand" label="Gladiateur" command="title %p" />
+		<item type="sendCommand" label="Hero" command="title %p" />
+    </item>
+
+	<item type="menu" label="Titres L a M">
+    <item type="static" label="Titres L a M" />
+		<item type="sendCommand" label="La dent de guerre" command="title %p" />
+		<item type="sendCommand" label="Legendary" command="title %p" />
+		<item type="sendCommand" label="L'intouchable" command="title %p" />
+		<item type="sendCommand" label="L'homme a abattre" command="title %p" />
+		<item type="sendCommand" label="L'expert" command="title %p" />
+		<item type="sendCommand" label="Mercenaire" command="title %p" />
+		<item type="sendCommand" label="Mister Silouate" command="title %p" />
+		<item type="sendCommand" label="Miss Silouate" command="title %p" />
+    </item>
+
+	<item type="menu" label="Titres N a R">
+    <item type="static" label=" Titres N a R" />
+		<item type="sendCommand" label="Never back down" command="title %p" />
+		<item type="sendCommand" label="Noob" command="title %p" />
+		<item type="sendCommand" label="Nolife" command="title %p" />
+		<item type="sendCommand" label="Number One" command="title %p" />
+		<item type="sendCommand" label="Nobody cares" command="title %p" />
+		<item type="sendCommand" label="Peace an²d Love" command="title %p" />
+		<item type="sendCommand" label="PGM" command="title %p" />
+		<item type="sendCommand" label="Roxeur" command="title %p" />
+		<item type="sendCommand" label="Rasta" command="title %p" />
+    </item>
+
+	<item type="menu" label="Titres S a Z">
+    <item type="static" label="Titres S a Z" />
+		<item type="sendCommand" label="Sodomiseur" command="title %p" />
+		<item type="sendCommand" label="Spartan du Serveur" command="title %p" />
+		<item type="sendCommand" label="Victorieux de guerre" command="title %p" />
+	</item>
+		<item type="sendCommand" label="Enleve le titre" command="title %p 0" />
+		</item>
+					<item type="sendCommand" label="Kick" command="kick %p"/>
+		</commands>

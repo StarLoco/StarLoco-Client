@@ -1,0 +1,49 @@
+.body {
+	font-family:		"Verdana";
+	font-size:			11px;
+	color:				#514a3c;
+	text-align:			justify;
+}
+
+a {
+	color:				#0000FF;
+	font-weight:		bold;
+	text-decoration:	underline;
+}
+
+b {
+	color: #ffffff;
+}
+
+strong {
+	font-weight:		bold;
+	display: 			inline;
+}
+
+.vert {
+	color:				#009900;
+}
+
+.noir {
+	color:				#000000;
+}
+
+.bleu {
+	color:				#0066ff;
+}
+
+.violet {
+	color:				#663399;
+}
+
+.orange {
+	color:				#ff9900;
+}
+
+.gris {
+	color:				#737373;
+}
+
+.marron {
+	color:				#663300;
+}
